@@ -16,7 +16,7 @@ Pardus, Debian ve Debian tabanlı Linux sistemleri için geliştirilmiş basit b
 - Python 3
 - Python sanal ortam desteği
 - `pip`
-- `git` ve temel sistem araçları
+- GitHub üzerinden klonlama yapılacaksa `git`
 
 ## Kurulum
 
@@ -35,7 +35,7 @@ Depoyu ZIP olarak indirdiyseniz klasöre terminalden girin:
 cd pardus-akilli-terminal
 ```
 
-### 2. Python Kurun
+### 2. Python ve Venv Paketlerini Kurun
 
 Pardus/Debian sistemlerde önce paket listesini güncelleyin:
 
@@ -43,10 +43,16 @@ Pardus/Debian sistemlerde önce paket listesini güncelleyin:
 sudo apt update
 ```
 
-Python 3 kurulu değilse kurun:
+Uygulamanın çalışması için gereken sistem paketlerini kurun:
 
 ```bash
-sudo apt install -y python3
+sudo apt install -y python3 python3-venv python3-pip
+```
+
+Projeyi GitHub üzerinden klonlayacaksanız ayrıca `git` gerekir:
+
+```bash
+sudo apt install -y git
 ```
 
 Kurulumu kontrol edin:
@@ -55,15 +61,7 @@ Kurulumu kontrol edin:
 python3 --version
 ```
 
-### 3. Venv ve Pip Paketlerini Kurun
-
-Sanal ortam oluşturabilmek ve Python paketlerini kurabilmek için gerekli sistem paketlerini yükleyin:
-
-```bash
-sudo apt install -y python3-venv python3-pip
-```
-
-### 4. Sanal Ortam Oluşturun
+### 3. Sanal Ortam Oluşturun
 
 Proje klasörü içinde `venv` adlı sanal ortamı oluşturun:
 
@@ -79,25 +77,7 @@ source venv/bin/activate
 
 Terminal satırının başında `(venv)` görüyorsanız sanal ortam aktiftir.
 
-### 5. Gerekli Sistem Paketlerini Kurun
-
-Uygulama temel olarak Python ile çalışır. Komut önerileri içinde geçen yaygın araçları denemek istiyorsanız aşağıdaki paketleri kurabilirsiniz:
-
-```bash
-sudo apt install -y curl wget git nano vim htop tree net-tools openssh-client openssh-server ufw rsync unzip zip tar grep sed gawk coreutils
-```
-
-Docker komutlarını da kullanacaksanız:
-
-```bash
-sudo apt install -y docker.io
-sudo systemctl enable --now docker
-sudo usermod -aG docker $USER
-```
-
-Docker grup değişikliğinin aktif olması için oturumu kapatıp açmanız gerekebilir.
-
-### 6. Python Kütüphanelerini Kurun
+### 4. Python Kütüphanelerini Kurun
 
 Sanal ortam aktifken Python bağımlılıklarını `requirements.txt` dosyasından kurun:
 
@@ -112,7 +92,7 @@ Kurulan paketleri kontrol etmek için:
 pip list
 ```
 
-### 7. Komut Havuzunu Kontrol Edin
+### 5. Komut Havuzunu Kontrol Edin
 
 `komutlar.json` dosyası proje kök dizininde bulunmalıdır. JSON dosyasının geçerli olduğunu kontrol etmek için:
 
@@ -128,6 +108,8 @@ python3 -c "import json; print(len(json.load(open('komutlar.json', encoding='utf
 
 Çıktı `1000` olmalıdır.
 
+`komutlar.json` içinde `docker`, `nginx`, `ufw`, `ssh` gibi farklı araçlara ait örnek komutlar bulunabilir. Bunlar sadece autocomplete önerileridir; uygulamanın çalışması için bu araçların kurulması zorunlu değildir.
+
 ## Çalıştırma
 
 Sanal ortam aktifken uygulamayı başlatın:
@@ -140,8 +122,10 @@ Başarılı çalıştığında şuna benzer bir ekran görürsünüz:
 
 ```text
 --- Pardus Akıllı Terminal (1000 komut yüklendi) ---
-pardus@akilli:~$
+mervan@pardusyoldaş:$
 ```
+
+Uygulama açıldığında otomatik olarak kullanıcının ana dizininde başlar. Yani `app.py` hangi klasörden çalıştırılırsa çalıştırılsın komutlar varsayılan olarak `$HOME` dizininde çalışır.
 
 ## Kullanım
 
@@ -150,12 +134,32 @@ Komut yazmaya başladığınızda uygulama `komutlar.json` içindeki ilk uygun k
 Örnek:
 
 ```text
-pardus@akilli:~$ sudo apt up
+mervan@pardusyoldaş:$ sudo apt up
 ```
 
 Bu giriş için öneri olarak `sudo apt update` veya listedeki benzer bir komut görüntülenebilir.
 
-Öneriyi kabul etmek için sağ ok gibi terminal tamamlama tuşlarını kullanabilir veya komutu yazmaya devam edebilirsiniz. `Enter` tuşu satırda gerçekten yazılı olan komutu çalıştırır.
+Öneriyi kabul etmek için `Tab` tuşuna basabilirsiniz. Bu işlem öneriyi satıra ekler ve imleci satırın sonuna taşır; komutu çalıştırmaz. Komutu çalıştırmak için ayrıca `Enter` tuşuna basmanız gerekir.
+
+Ana dizindeyken prompt içinde dizin yazmaz. Farklı bir dizine geçtiğinizde konum bilgisi mavi renkte görünür:
+
+```text
+mervan@pardusyoldaş:~/Masaüstü$
+```
+
+## Kısayollar
+
+| Tuş / Komut | Açıklama |
+| --- | --- |
+| `Tab` | Ekranda görünen tahmini satıra uygular, komutu çalıştırmaz. |
+| `Shift+Tab` | Aynı yazılan metin için bir sonraki tahmine geçer. Tüm tahminleri göstermeden aynı tahmini tekrar göstermez; liste bitince ilk tahmine döner. |
+| `Enter` | Satırda yazılı olan komutu çalıştırır. |
+| `cd` | Ana dizine geçer. |
+| `cd klasor` | Belirtilen klasöre geçer. |
+| `cd -` | Bir önceki klasöre döner. |
+| `Ctrl+C` | Yazılan satırı iptal eder ve yeni satıra geçer. |
+| `exit` | Uygulamadan çıkar. |
+| `quit` | Uygulamadan çıkar. |
 
 Çıkmak için:
 

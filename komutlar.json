@@ -926,6 +926,7 @@
   "docker rmi debian:stable-slim",
   "nano app.py",
   "nano README.md",
+  "nano file.txt",
   "nano komutlar.json",
   "sudo nano /etc/hosts",
   "sudo nano /etc/ssh/sshd_config",
