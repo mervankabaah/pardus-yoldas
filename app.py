@@ -11,14 +11,45 @@ from prompt_toolkit.key_binding import KeyBindings
 def komutlari_yukle(dosya_yolu):
     try:
         with open(dosya_yolu, 'r', encoding='utf-8') as f:
-            # JSON dosyasındaki listeyi doğrudan döndür
-            return json.load(f)
+            # JSON dosyasindaki komutlari normalize etmek icin oku
+            ham_komutlar = json.load(f)
     except FileNotFoundError:
         print(f"\033[91mHata: '{dosya_yolu}' bulunamadı. Lütfen JSON dosyasını oluşturun.\033[0m")
         return []
     except json.JSONDecodeError:
         print(f"\033[91mHata: '{dosya_yolu}' geçerli bir JSON formatında değil.\033[0m")
         return []
+
+    komutlar = []
+    for sira, kayit in enumerate(ham_komutlar):
+        if isinstance(kayit, str):
+            komut = kayit
+            kullanim_sikligi = 0
+        elif isinstance(kayit, dict):
+            komut = kayit.get("komut") or kayit.get("command")
+            kullanim_sikligi = (
+                kayit.get("kullanim_sikligi")
+                or kayit.get("usage_frequency")
+                or 0
+            )
+        else:
+            continue
+
+        if not isinstance(komut, str) or not komut:
+            continue
+
+        try:
+            kullanim_sikligi = int(kullanim_sikligi)
+        except (TypeError, ValueError):
+            kullanim_sikligi = 0
+
+        komutlar.append({
+            "komut": komut,
+            "kullanim_sikligi": kullanim_sikligi,
+            "sira": sira,
+        })
+
+    return komutlar
 
 # Komutları global bir listeye alıyoruz
 UYGULAMA_DIZINI = Path(__file__).resolve().parent
@@ -37,11 +68,13 @@ class AkilliTahmin(AutoSuggest):
         if not yazilan:
             return []
 
-        return [
-            komut
-            for komut in KOMUTLAR
-            if komut.startswith(yazilan) and len(komut) > len(yazilan)
+        eslesenler = [
+            kayit
+            for kayit in KOMUTLAR
+            if kayit["komut"].startswith(yazilan) and len(kayit["komut"]) > len(yazilan)
         ]
+        eslesenler.sort(key=lambda kayit: (-kayit["kullanim_sikligi"], kayit["sira"]))
+        return [kayit["komut"] for kayit in eslesenler]
 
     def get_suggestion(self, buffer, document):
         yazilan = document.text

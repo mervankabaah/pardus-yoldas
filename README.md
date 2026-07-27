@@ -6,7 +6,8 @@ Pardus, Debian ve Debian tabanlı Linux sistemleri için geliştirilmiş basit b
 
 - Pardus/Debian odaklı komut tamamlama
 - `apt`, `systemctl`, `journalctl`, `ls`, `cd`, `rm`, `cp`, `mv`, `tar`, `chmod`, `chown`, `grep`, `awk`, `sed`, `docker`, `git`, `ssh`, `ufw`, `nano`, `vim` gibi araçlar için hazır komut havuzu
-- `komutlar.json` içinde 1000 adet gerçekçi terminal komutu
+- `komutlar.json` içinde 2001 adet gerçekçi terminal komutu
+- Her komutta sayısal `kullanim_sikligi` değeri ile frekansa göre öneri sıralaması
 - `cd` komutunu oturum içinde çalıştırma
 - `exit` veya `quit` ile çıkış
 
@@ -106,7 +107,7 @@ Komut sayısını kontrol etmek için:
 python3 -c "import json; print(len(json.load(open('komutlar.json', encoding='utf-8'))))"
 ```
 
-Çıktı `1000` olmalıdır.
+Çıktı `2001` olmalıdır.
 
 `komutlar.json` içinde `docker`, `nginx`, `ufw`, `ssh` gibi farklı araçlara ait örnek komutlar bulunabilir. Bunlar sadece autocomplete önerileridir; uygulamanın çalışması için bu araçların kurulması zorunlu değildir.
 
@@ -121,7 +122,7 @@ python3 app.py
 Başarılı çalıştığında şuna benzer bir ekran görürsünüz:
 
 ```text
---- Pardus Akıllı Terminal (1000 komut yüklendi) ---
+--- Pardus Akıllı Terminal (2001 komut yüklendi) ---
 mervan@pardusyoldaş:$
 ```
 
@@ -129,7 +130,7 @@ Uygulama açıldığında otomatik olarak kullanıcının ana dizininde başlar.
 
 ## Kullanım
 
-Komut yazmaya başladığınızda uygulama `komutlar.json` içindeki ilk uygun komutu hayalet metin olarak önerir.
+Komut yazmaya başladığınızda uygulama `komutlar.json` içindeki uygun komutları `kullanim_sikligi` değerine göre yüksekten düşüğe sıralar ve en sık kullanılan eşleşmeyi hayalet metin olarak önerir.
 
 Örnek:
 
@@ -137,7 +138,7 @@ Komut yazmaya başladığınızda uygulama `komutlar.json` içindeki ilk uygun k
 mervan@pardusyoldaş:$ sudo apt up
 ```
 
-Bu giriş için öneri olarak `sudo apt update` veya listedeki benzer bir komut görüntülenebilir.
+Bu giriş için öneri olarak eşleşen komutlar arasındaki `kullanim_sikligi` değeri en yüksek olan komut önce görüntülenir; diğer alternatiflere `Shift+Tab` ile geçilebilir.
 
 Öneriyi kabul etmek için `Tab` tuşuna basabilirsiniz. Bu işlem öneriyi satıra ekler ve imleci satırın sonuna taşır; komutu çalıştırmaz. Komutu çalıştırmak için ayrıca `Enter` tuşuna basmanız gerekir.
 
@@ -191,26 +192,36 @@ quit
 ## Dosyalar
 
 - `app.py`: Akıllı terminal uygulamasının ana Python dosyası.
-- `komutlar.json`: Autocomplete için kullanılan 1000 komutluk JSON listesi.
+- `komutlar.json`: Autocomplete için kullanılan 2001 komutluk, kullanım sıklığı değerli JSON listesi.
 - `requirements.txt`: Python bağımlılıkları.
 - `README.md`: Kurulum ve kullanım dokümantasyonu.
 
 ## Komut Havuzunu Güncelleme
 
-Yeni komut eklemek için `komutlar.json` dosyasını açın ve JSON dizi formatını bozmadan yeni string ekleyin:
+Yeni komut eklemek için `komutlar.json` dosyasını açın ve JSON dizi formatını bozmadan yeni bir nesne ekleyin:
 
 ```json
 [
-  "sudo apt update",
-  "sudo apt upgrade -y",
-  "systemctl status ssh"
+  {
+    "komut": "sudo apt update",
+    "kullanim_sikligi": 960
+  },
+  {
+    "komut": "sudo apt upgrade -y",
+    "kullanim_sikligi": 950
+  },
+  {
+    "komut": "systemctl status ssh",
+    "kullanim_sikligi": 720
+  }
 ]
 ```
 
 Dikkat edilmesi gerekenler:
 
 - Dosya geçerli JSON array formatında kalmalıdır.
-- Her komut string olmalıdır.
+- Her kayıt `komut` ve sayısal `kullanim_sikligi` alanlarını içermelidir.
+- Birden fazla komut aynı yazılan metinle eşleşirse `kullanim_sikligi` değeri yüksek olan önce önerilir.
 - Son elemandan sonra virgül olmamalıdır.
 - Dosyayı düzenledikten sonra `python3 -m json.tool komutlar.json` ile kontrol edin.
 
