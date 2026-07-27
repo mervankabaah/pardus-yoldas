@@ -154,12 +154,17 @@ mervan@pardusyoldaş:~/Masaüstü$
 | `Tab` | Ekranda görünen tahmini satıra uygular, komutu çalıştırmaz. |
 | `Shift+Tab` | Aynı yazılan metin için bir sonraki tahmine geçer. Tüm tahminleri göstermeden aynı tahmini tekrar göstermez; liste bitince ilk tahmine döner. |
 | `Enter` | Satırda yazılı olan komutu çalıştırır. |
-| `cd` | Ana dizine geçer. |
-| `cd klasor` | Belirtilen klasöre geçer. |
-| `cd -` | Bir önceki klasöre döner. |
 | `Ctrl+C` | Yazılan satırı iptal eder ve yeni satıra geçer. |
 | `exit` | Uygulamadan çıkar. |
 | `quit` | Uygulamadan çıkar. |
+
+## Desteklenen Komut Davranışları
+
+| Komut | Açıklama |
+| --- | --- |
+| `cd` | Ana dizine geçer. |
+| `cd klasor` | Belirtilen klasöre geçer. |
+| `cd -` | Bir önceki klasöre döner. |
 
 Çıkmak için:
 
@@ -235,7 +240,3 @@ JSON hatası alırsanız dosyayı doğrulayın:
 ```bash
 python3 -m json.tool komutlar.json
 ```
-
-## Lisans
-
-Bu projeyi kendi GitHub deponuzda uygun gördüğünüz lisansla yayımlayabilirsiniz. Açık kaynak yayımlamak için `MIT`, `Apache-2.0` veya `GPL-3.0` lisanslarından birini tercih edebilirsiniz.
