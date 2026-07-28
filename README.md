@@ -1,158 +1,234 @@
 # Pardus Yoldaş
 
-Pardus Yoldaş, Pardus ve Debian tabanlı Linux sistemleri için geliştirilmiş, terminal komutlarını yazarken hayalet metinle öneren küçük bir terminal uygulamasıdır. `prompt_toolkit` ile çalışan uygulama, önerilerini `komutlar.json` içindeki komut havuzundan alır ve komutları kullanım sıklığına göre sıralar.
+**Pardus Yoldaş**, Pardus ve Debian tabanlı Linux dağıtımlarında komut yazmayı kolaylaştıran, terminal içinde çalışan akıllı öneri uygulamasıdır. Bir komutun başını yazdığınızda, devamını soluk (hayalet) metin olarak önerir. Öneriyi tamamlayabilir, alternatiflerine geçebilir veya komutu doğrudan çalıştırabilirsiniz.
 
-> Bu uygulama gerçek komutları çalıştırır. Bir öneriyi kabul etmek, komutu güvenli hâle getirmez; çalıştırmadan önce komutu kontrol edin.
+Uygulama, `komutlar.json` dosyasındaki **4.006 komutluk** havuzu kullanır. Eşleşen öneriler önce kullanım sıklığına göre sıralanır: daha sık kullanılan komutlar önce, daha az kullanılanlar sonra gösterilir.
 
-## Özellikler
+> Dikkat: Pardus Yoldaş girilen komutları Bash ile gerçekten çalıştırır. Bir önerinin görünmesi onun güvenli, sisteminizde kurulu veya her durumda uygun olduğu anlamına gelmez. `sudo`, dosya silme ve disk işlemleri gibi komutları çalıştırmadan önce mutlaka kontrol edin.
 
-- `komutlar.json` içindeki 4006 komutla otomatik öneri
-- Kullanım sıklığına göre sıralama
-- `Tab` ile öneriyi tamamlama, `Shift+Tab` ile alternatif öneriye geçme
-- Oturum içinde çalışan `cd`, `cd -` ve `cd klasor` desteği
-- Bash ile komut yürütme
-- Uygulama içinden `source venv/bin/activate` ile Python sanal ortamı etkinleştirme
-- `deactivate`, `exit` ve `quit` komutları
+## Neler yapar?
+
+- 4.006 komuttan otomatik tamamlama önerisi üretir.
+- Önerileri kullanım sıklığına göre sıralar.
+- `Tab` ile görünür öneriyi komut satırına tamamlar.
+- `Shift+Tab` ile daha sonraki, genellikle daha az sık kullanılan uygun öneriye geçer.
+- `Enter` ile yazılı komutu Bash üzerinde çalıştırır.
+- `cd`, `cd -` ve `cd klasor` komutlarıyla dizin değişikliğini uygulama oturumu boyunca korur.
+- `source venv/bin/activate` ile Python sanal ortamını uygulama içinden etkinleştirebilir.
+- `deactivate`, `exit` ve `quit` komutlarını destekler.
 
 ## Gereksinimler
 
 - Pardus veya başka bir Debian tabanlı Linux dağıtımı
-- Python 3 ve `venv` desteği
-- `pip`
-- Git ile kurulum için `git`
-
-Gerekli sistem paketleri:
-
-```bash
-sudo apt update
-sudo apt install -y python3 python3-venv python3-pip git
-```
+- İnternet bağlantısı (ilk kurulum için)
+- Terminal erişimi
+- `git`, Python 3, `venv` ve `pip`
 
 ## Kurulum
 
-Depoyu klonlayın ve proje dizinine girin:
+Aşağıdaki komutları sırayla terminalde çalıştırın. Her adımın altında ne yaptığı açıklanmıştır.
+
+### 1. Paket listesini güncelleyin
 
 ```bash
-git clone https://github.com/mervankabaah/pardus-yoldas.git
-cd pardus-yoldas
+sudo apt update
 ```
 
-Sanal ortamı oluşturup bağımlılıkları yükleyin:
+Bu komut, Pardus'un paket listelerini yeniler. `sudo` sizden kullanıcı parolanızı isteyebilir; parola yazılırken ekranda karakter görünmemesi normaldir.
+
+### 2. Git ve Python araçlarını kurun
+
+```bash
+sudo apt install -y git python3 python3-venv python3-pip unzip
+```
+
+Bu paketlerin görevleri şunlardır:
+
+- `git`: Projeyi GitHub'dan indirmek (klonlamak) için kullanılır.
+- `python3`: Uygulamayı çalıştırır.
+- `python3-venv`: İzole Python ortamı oluşturur.
+- `python3-pip`: Python kütüphanelerini kurar.
+- `unzip`: GitHub'dan ZIP indirme yolunu tercih edenler için arşivi çıkarır.
+
+### 3. Projeyi GitHub'dan klonlayın
+
+Ev dizininizde çalışmak için önce oraya geçin ve projeyi indirin:
+
+```bash
+cd ~
+git clone https://github.com/mervankabaah/pardus-yoldas.git
+```
+
+`git clone` komutu, [mervankabaah/pardus-yoldas](https://github.com/mervankabaah/pardus-yoldas) deposunu bilgisayarınıza `pardus-yoldas` adlı klasör olarak indirir.
+
+### 4. Proje klasörüne girin
+
+```bash
+cd ~/pardus-yoldas
+```
+
+Bu noktadan sonraki komutlar proje klasörü içinde çalıştırılmalıdır.
+
+### ZIP ile indirdiyseniz: arşivi çıkarın
+
+`git clone` kullandıysanız bu adımı **atlayın**: Git projeyi zaten dosyalar hâlinde indirir, çıkarılacak ZIP oluşturmaz.
+
+GitHub sayfasındaki **Code → Download ZIP** seçeneğiyle bir ZIP dosyası indirdiyseniz, klonlama yerine aşağıdaki yolu kullanın:
+
+```bash
+cd ~/İndirilenler
+unzip pardus-yoldas-main.zip
+cd pardus-yoldas-main
+```
+
+İndirilen dosyanın adı farklıysa, `pardus-yoldas-main.zip` yerine kendi dosya adınızı yazın. `ls` komutuyla bulunduğunuz klasördeki dosyaları görebilirsiniz.
+
+### 5. Python sanal ortamını oluşturun
+
+Git ile kurulumda proje klasöründeyken şu komutu çalıştırın:
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
-## Çalıştırma
+Bu komut, proje içinde `venv` adlı ayrı bir Python ortamı oluşturur. Böylece uygulamanın ihtiyaç duyduğu kütüphaneler sistemdeki diğer Python programlarından bağımsız tutulur.
 
-Sanal ortam etkin durumdayken uygulamayı başlatın:
+### 6. Sanal ortamı etkinleştirin
+
+```bash
+source venv/bin/activate
+```
+
+Başarılı olduğunda terminal satırınızın başında `(venv)` görünür. Bu, sonraki `python` ve `pip` komutlarının bu proje için oluşturulan ortamı kullanacağı anlamına gelir.
+
+### 7. Gerekli Python kütüphanesini kurun
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+İlk komut `pip` paket yöneticisini günceller. İkinci komut, `requirements.txt` dosyasında yazan gerekli kütüphaneleri (özellikle `prompt_toolkit`) kurar.
+
+## Uygulamayı çalıştırma
+
+Sanal ortam etkin durumdayken proje klasöründe aşağıdaki komutu çalıştırın:
 
 ```bash
 python app.py
 ```
 
-Örnek başlangıç ekranı:
+Başlangıçta buna benzer bir mesaj görürsünüz:
 
 ```text
 --- Pardus Akıllı Terminal (4006 komut yüklendi) ---
-mervan@pardusyoldaş:$
+kullanici@pardusyoldaş:$
 ```
 
-Uygulama varsayılan olarak kullanıcının ana dizininde (`$HOME`) başlar. Başka bir dizinde çalışmak için `cd` kullanın:
+Sonraki kullanımlarda yeni bir terminal açtıysanız önce proje klasörüne girip sanal ortamı yeniden etkinleştirin:
 
-```text
-mervan@pardusyoldaş:$ cd ~/Masaüstü/yoldaş
-mervan@pardusyoldaş:~/Masaüstü/yoldaş$
+```bash
+cd ~/pardus-yoldas
+source venv/bin/activate
+python app.py
 ```
+
+ZIP yoluyla kurduysanız proje klasör adı `pardus-yoldas-main` olabilir; ilk `cd` komutunu buna göre değiştirin.
 
 ## Kullanım
 
-Bir komutun ilk harflerini yazın. Görünen hayalet öneriyi `Tab` ile satıra ekleyin, sonra çalıştırmak için `Enter`a basın. Aynı önek için başka önerileri `Shift+Tab` ile dolaşabilirsiniz.
+Komutun ilk kısmını yazmaya başlayın. Eşleşen bir komut varsa, devamı hayalet metin olarak görünür. Örneğin `sudo apt` yazdığınızda uygulama buna uygun komutlardan birini önerebilir.
 
-| Tuş / komut | Davranış |
+| Tuş / komut | Ne yapar? |
 | --- | --- |
-| `Tab` | Görünen öneriyi satıra ekler. Komutu çalıştırmaz. |
-| `Shift+Tab` | Bir sonraki uygun öneriyi gösterir. |
-| `Enter` | Satırdaki komutu çalıştırır. |
-| `Ctrl+C` | Girilen satırı iptal eder. |
-| `cd` | Ana dizine geçer. |
-| `cd klasor` | Belirtilen klasöre geçer. |
-| `cd -` | Önceki dizine döner. |
-| `exit` / `quit` | Uygulamadan çıkar. |
+| `Tab` | Görünen hayalet öneriyi satıra ekler. Komutu henüz çalıştırmaz. |
+| `Shift+Tab` | Bir sonraki uygun öneriye geçer. Öneriler kullanım sıklığına göre sıralandığından bu genellikle daha az sık kullanılan bir öneridir. Tekrar basarak diğer eşleşmeleri dolaşabilirsiniz. |
+| `Enter` | Satırdaki komutu çalıştırır. Önce öneriyi `Tab` ile tamamlamak zorunda değilsiniz. |
+| `Ctrl+C` | O anda yazdığınız satırı iptal eder ve yeni bir isteme döner. |
+| `Ctrl+D` | Girdi sonunu bildirir ve uygulamadan çıkar. |
+| `exit` veya `quit` | Uygulamayı kapatır. |
 
-## Bash ve sanal ortam kullanımı
+Örnek akış:
 
-Pardus Yoldaş, girilen komutları Bash ile çalıştırır; bu nedenle `source`, `[[ ... ]]` ve Bash’e ait diğer sözdizimi özellikleri komut düzeyinde kullanılabilir.
+1. `git sta` yazın.
+2. Hayalet olarak `tus` devamı görünürse `Tab` tuşuna basın; satır `git status` olur.
+3. Başka bir olası komutu görmek isterseniz `Shift+Tab` tuşuna basın.
+4. Çalıştırmak için `Enter` tuşuna basın.
+5. Vazgeçerseniz `Ctrl+C` tuşuna basın.
 
-Uygulama açıkken bir proje sanal ortamını etkinleştirmek için önce o projenin dizinine gidin:
+## Dizinler arasında gezinme
 
-```text
-mervan@pardusyoldaş:$ cd ~/Masaüstü/yoldaş
-mervan@pardusyoldaş:~/Masaüstü/yoldaş$ source venv/bin/activate
-Sanal ortam etkinleştirildi: /home/kullanici/Masaüstü/yoldaş/venv
-(venv) mervan@pardusyoldaş:~/Masaüstü/yoldaş$
+Pardus Yoldaş içindeki `cd` komutu, çalıştığınız dizini oturum boyunca değiştirir:
+
+```bash
+cd ~/Masaüstü
+cd proje-klasoru
+cd ..
+cd -
 ```
 
-Bu işlem `python` ve `pip` komutlarının ilgili sanal ortamdan çalışmasını sağlar. Ortamdan çıkmak için:
+- `cd`: Ana dizine (`~`) döner.
+- `cd klasor`: Verilen klasöre geçer.
+- `cd ..`: Bir üst klasöre çıkar.
+- `cd -`: Bir önceki klasöre döner.
 
-```text
-(venv) mervan@pardusyoldaş:~/Masaüstü/yoldaş$ deactivate
+## Sanal ortamı uygulama içinden kullanma
+
+Pardus Yoldaş çalışırken bir Python projesinin sanal ortamını etkinleştirmek için önce projenin dizinine gidin, sonra etkinleştirme komutunu yazın:
+
+```bash
+cd ~/pardus-yoldas
+source venv/bin/activate
+```
+
+İstem satırında `(venv)` görünür. Sanal ortamdan çıkmak için şunu yazın:
+
+```bash
+deactivate
 ```
 
 `source /venv/bin/activate` yanlış bir yoldur; baştaki `/` kök dizini ifade eder. Proje içindeki ortam için `source venv/bin/activate` kullanın.
 
-Her komut ayrı bir Bash alt sürecinde yürütüldüğünden, genel `export`, `alias` veya başka bir dosyayı `source` etme işlemlerinin kabuk durumu sonraki komuta taşınmaz. `source .../bin/activate` ve `deactivate` sanal ortam için uygulama tarafından özel olarak kalıcı biçimde desteklenir.
+## Sorun giderme
 
-## Komut havuzu
+### `python3-venv` veya `pip` bulunamadı
 
-Öneriler [`komutlar.json`](komutlar.json) dosyasından gelir. Her kayıt şu biçimdedir:
-
-```json
-{
-  "komut": "sudo apt update",
-  "kullanim_sikligi": 960
-}
-```
-
-- `komut`: Önerilecek komut metni
-- `kullanim_sikligi`: Büyük değer önce önerilir
-
-Dosyayı düzenledikten sonra JSON biçimini doğrulayın:
+Sistem paketlerini yeniden kurun:
 
 ```bash
-python -c "import json; json.load(open('komutlar.json', encoding='utf-8-sig')); print('JSON geçerli')"
+sudo apt update
+sudo apt install -y python3 python3-venv python3-pip
 ```
 
-Komut havuzundaki örnekler yalnızca öneridir. Örneğin `docker`, `nmap` veya `ufw` ile ilgili bir önerinin görünmesi, bu araçların sistemde kurulu olduğu ya da kullanılmasının güvenli olduğu anlamına gelmez.
+### `ModuleNotFoundError: No module named 'prompt_toolkit'`
 
-## Kontrol
-
-Kurulum ve temel dosyaları kontrol etmek için:
+Sanal ortamı etkinleştirip bağımlılıkları kurun:
 
 ```bash
-python -m py_compile app.py
-python -c "import json; json.load(open('komutlar.json', encoding='utf-8-sig'))"
-```
-
-`ModuleNotFoundError: No module named 'prompt_toolkit'` hatasında sanal ortamı etkinleştirip bağımlılıkları yeniden kurun:
-
-```bash
+cd ~/pardus-yoldas
 source venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-## Proje yapısı
+### Komut önerileri görünmüyor
+
+Uygulamayı proje klasöründen çalıştırdığınızdan ve `komutlar.json` dosyasının bulunduğundan emin olun:
+
+```bash
+cd ~/pardus-yoldas
+ls komutlar.json
+python app.py
+```
+
+## Proje dosyaları
 
 ```text
-.
+pardus-yoldas/
 ├── app.py             # Terminal uygulaması
-├── komutlar.json      # Otomatik tamamlama komut havuzu
+├── komutlar.json      # 4.006 komutluk öneri havuzu
 ├── requirements.txt   # Python bağımlılıkları
-├── LICENSE            # GNU GPL v3
-└── README.md
+├── LICENSE            # GNU GPL v3 lisansı
+└── README.md          # Bu kılavuz
 ```
 
 ## Lisans
