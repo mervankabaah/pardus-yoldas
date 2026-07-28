@@ -8,7 +8,7 @@ Uygulama, `komutlar.json` dosyasındaki **6.000 komutluk** havuzu kullanır. Eş
 
 ## Neler yapar?
 
-- 4.006 komuttan otomatik tamamlama önerisi üretir.
+- 6.000 komuttan otomatik tamamlama önerisi üretir.
 - Önerileri kullanım sıklığına göre sıralar.
 - `Tab` ile görünür öneriyi komut satırına tamamlar.
 - `Shift+Tab` ile daha sonraki, genellikle daha az sık kullanılan uygun öneriye geçer.
