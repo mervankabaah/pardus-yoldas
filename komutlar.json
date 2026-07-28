@@ -11998,5 +11998,4029 @@
     {
         "komut":  "find ./assets -type f -name \"*.jpg\" -mtime -3",
         "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "systemctl start ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop ssh",
+        "kullanim_sikligi":  709
+    },
+    {
+        "komut":  "systemctl restart ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now ssh",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl start nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable nginx",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now nginx",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable apache2",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now apache2",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable docker",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now docker",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop ufw",
+        "kullanim_sikligi":  709
+    },
+    {
+        "komut":  "systemctl restart ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now ufw",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl start fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable fail2ban",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now fail2ban",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable cron",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now cron",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl stop NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl restart NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl reload NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl disable NetworkManager",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable --now NetworkManager",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl start postgresql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop postgresql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart postgresql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl reload postgresql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable postgresql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl disable postgresql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable --now postgresql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl stop redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl restart redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl reload redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl disable redis-server",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable --now redis-server",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl start mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable mysql",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now mysql",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl stop mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl restart mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl reload mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl disable mariadb",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl enable --now mariadb",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl start bluetooth",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl stop bluetooth",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl restart bluetooth",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl reload bluetooth",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable bluetooth",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl disable bluetooth",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl enable --now bluetooth",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl start cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl stop cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl restart cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl reload cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl disable cups",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl enable --now cups",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl start avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl stop avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl restart avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl reload avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl enable avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl disable avahi-daemon",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl enable --now avahi-daemon",
+        "kullanim_sikligi":  705
+    },
+    {
+        "komut":  "systemctl start systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl stop systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl restart systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl reload systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl enable systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl disable systemd-resolved",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl enable --now systemd-resolved",
+        "kullanim_sikligi":  705
+    },
+    {
+        "komut":  "systemctl reboot",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl poweroff",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl start sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl stop sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl restart sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl reload sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl enable sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl disable sshd",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl start lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl stop lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl restart lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl reload lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl enable lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl disable lightdm",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl start gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable gdm3",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable sddm",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable dbus",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable rsyslog",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start systemd-timesyncd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop systemd-timesyncd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart systemd-timesyncd",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload systemd-timesyncd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable systemd-timesyncd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable systemd-timesyncd",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl start apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable apparmor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable snapd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable xrdp",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl stop smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl reload smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl enable smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl disable smbd",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable nmbd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable vsftpd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable bind9",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl stop isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl restart isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl enable isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl disable isc-dhcp-server",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl start php8.2-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop php8.2-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart php8.2-fpm",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload php8.2-fpm",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl enable php8.2-fpm",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl disable php8.2-fpm",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl start php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable php-fpm",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start tor",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop tor",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl restart tor",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload tor",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable tor",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable tor",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable openvpn",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start wireguard",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop wireguard",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart wireguard",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload wireguard",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable wireguard",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable wireguard",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl start libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl stop libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl reload libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl enable libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl disable libvirtd",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl start podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl stop podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl restart podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl enable podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl disable podman",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl start firewalld",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl stop firewalld",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl restart firewalld",
+        "kullanim_sikligi":  698
+    },
+    {
+        "komut":  "systemctl reload firewalld",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl enable firewalld",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl disable firewalld",
+        "kullanim_sikligi":  698
+    },
+    {
+        "komut":  "systemctl start postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl stop postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl restart postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl enable postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl disable postfix",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl status <service_name>",
+        "kullanim_sikligi":  720
+    },
+    {
+        "komut":  "systemctl start <service_name>",
+        "kullanim_sikligi":  719
+    },
+    {
+        "komut":  "systemctl stop <service_name>",
+        "kullanim_sikligi":  718
+    },
+    {
+        "komut":  "systemctl restart <service_name>",
+        "kullanim_sikligi":  717
+    },
+    {
+        "komut":  "systemctl reload <service_name>",
+        "kullanim_sikligi":  716
+    },
+    {
+        "komut":  "systemctl try-restart <service_name>",
+        "kullanim_sikligi":  715
+    },
+    {
+        "komut":  "systemctl reload-or-restart <service_name>",
+        "kullanim_sikligi":  714
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart <service_name>",
+        "kullanim_sikligi":  713
+    },
+    {
+        "komut":  "systemctl enable <service_name>",
+        "kullanim_sikligi":  712
+    },
+    {
+        "komut":  "systemctl disable <service_name>",
+        "kullanim_sikligi":  711
+    },
+    {
+        "komut":  "systemctl reenable <service_name>",
+        "kullanim_sikligi":  710
+    },
+    {
+        "komut":  "systemctl preset <service_name>",
+        "kullanim_sikligi":  709
+    },
+    {
+        "komut":  "systemctl mask <service_name>",
+        "kullanim_sikligi":  708
+    },
+    {
+        "komut":  "systemctl unmask <service_name>",
+        "kullanim_sikligi":  707
+    },
+    {
+        "komut":  "systemctl reset-failed <service_name>",
+        "kullanim_sikligi":  706
+    },
+    {
+        "komut":  "systemctl is-active <service_name>",
+        "kullanim_sikligi":  705
+    },
+    {
+        "komut":  "systemctl is-enabled <service_name>",
+        "kullanim_sikligi":  704
+    },
+    {
+        "komut":  "systemctl show <service_name>",
+        "kullanim_sikligi":  703
+    },
+    {
+        "komut":  "systemctl cat <service_name>",
+        "kullanim_sikligi":  702
+    },
+    {
+        "komut":  "systemctl list-dependencies <service_name>",
+        "kullanim_sikligi":  701
+    },
+    {
+        "komut":  "systemctl start --no-block <service_name>",
+        "kullanim_sikligi":  700
+    },
+    {
+        "komut":  "systemctl restart --no-block <service_name>",
+        "kullanim_sikligi":  699
+    },
+    {
+        "komut":  "systemctl reload --no-block <service_name>",
+        "kullanim_sikligi":  698
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState <service_name>",
+        "kullanim_sikligi":  697
+    },
+    {
+        "komut":  "systemctl show --property=SubState <service_name>",
+        "kullanim_sikligi":  696
+    },
+    {
+        "komut":  "systemctl show --property=LoadState <service_name>",
+        "kullanim_sikligi":  695
+    },
+    {
+        "komut":  "systemctl show --property=UnitFileState <service_name>",
+        "kullanim_sikligi":  694
+    },
+    {
+        "komut":  "systemctl kill <service_name>",
+        "kullanim_sikligi":  693
+    },
+    {
+        "komut":  "systemctl clean <service_name>",
+        "kullanim_sikligi":  692
+    },
+    {
+        "komut":  "systemctl freeze <service_name>",
+        "kullanim_sikligi":  691
+    },
+    {
+        "komut":  "systemctl thaw <service_name>",
+        "kullanim_sikligi":  690
+    },
+    {
+        "komut":  "sudo systemctl start <service_name>",
+        "kullanim_sikligi":  679
+    },
+    {
+        "komut":  "sudo systemctl stop <service_name>",
+        "kullanim_sikligi":  678
+    },
+    {
+        "komut":  "sudo systemctl restart <service_name>",
+        "kullanim_sikligi":  677
+    },
+    {
+        "komut":  "sudo systemctl reload <service_name>",
+        "kullanim_sikligi":  676
+    },
+    {
+        "komut":  "sudo systemctl try-restart <service_name>",
+        "kullanim_sikligi":  675
+    },
+    {
+        "komut":  "sudo systemctl reload-or-restart <service_name>",
+        "kullanim_sikligi":  674
+    },
+    {
+        "komut":  "sudo systemctl reload-or-try-restart <service_name>",
+        "kullanim_sikligi":  673
+    },
+    {
+        "komut":  "sudo systemctl enable <service_name>",
+        "kullanim_sikligi":  672
+    },
+    {
+        "komut":  "sudo systemctl disable <service_name>",
+        "kullanim_sikligi":  671
+    },
+    {
+        "komut":  "sudo systemctl reenable <service_name>",
+        "kullanim_sikligi":  670
+    },
+    {
+        "komut":  "sudo systemctl preset <service_name>",
+        "kullanim_sikligi":  669
+    },
+    {
+        "komut":  "sudo systemctl mask <service_name>",
+        "kullanim_sikligi":  668
+    },
+    {
+        "komut":  "sudo systemctl unmask <service_name>",
+        "kullanim_sikligi":  667
+    },
+    {
+        "komut":  "sudo systemctl reset-failed <service_name>",
+        "kullanim_sikligi":  666
+    },
+    {
+        "komut":  "sudo systemctl kill <service_name>",
+        "kullanim_sikligi":  665
+    },
+    {
+        "komut":  "sudo systemctl clean <service_name>",
+        "kullanim_sikligi":  664
+    },
+    {
+        "komut":  "sudo systemctl freeze <service_name>",
+        "kullanim_sikligi":  663
+    },
+    {
+        "komut":  "sudo systemctl thaw <service_name>",
+        "kullanim_sikligi":  662
+    },
+    {
+        "komut":  "sudo systemctl enable --now <service_name>",
+        "kullanim_sikligi":  661
+    },
+    {
+        "komut":  "sudo systemctl disable --now <service_name>",
+        "kullanim_sikligi":  660
+    },
+    {
+        "komut":  "systemctl status <unit_name>.service",
+        "kullanim_sikligi":  639
+    },
+    {
+        "komut":  "systemctl start <unit_name>.service",
+        "kullanim_sikligi":  638
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.service",
+        "kullanim_sikligi":  637
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.service",
+        "kullanim_sikligi":  636
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.service",
+        "kullanim_sikligi":  635
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.service",
+        "kullanim_sikligi":  634
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.service",
+        "kullanim_sikligi":  633
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.service",
+        "kullanim_sikligi":  632
+    },
+    {
+        "komut":  "systemctl show <unit_name>.service",
+        "kullanim_sikligi":  631
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.service",
+        "kullanim_sikligi":  630
+    },
+    {
+        "komut":  "systemctl status <unit_name>.socket",
+        "kullanim_sikligi":  629
+    },
+    {
+        "komut":  "systemctl start <unit_name>.socket",
+        "kullanim_sikligi":  628
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.socket",
+        "kullanim_sikligi":  627
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.socket",
+        "kullanim_sikligi":  626
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.socket",
+        "kullanim_sikligi":  625
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.socket",
+        "kullanim_sikligi":  624
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.socket",
+        "kullanim_sikligi":  623
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.socket",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "systemctl show <unit_name>.socket",
+        "kullanim_sikligi":  621
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.socket",
+        "kullanim_sikligi":  620
+    },
+    {
+        "komut":  "systemctl status <unit_name>.timer",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "systemctl start <unit_name>.timer",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.timer",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.timer",
+        "kullanim_sikligi":  616
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.timer",
+        "kullanim_sikligi":  615
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.timer",
+        "kullanim_sikligi":  614
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.timer",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.timer",
+        "kullanim_sikligi":  612
+    },
+    {
+        "komut":  "systemctl show <unit_name>.timer",
+        "kullanim_sikligi":  611
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.timer",
+        "kullanim_sikligi":  610
+    },
+    {
+        "komut":  "systemctl status <unit_name>.path",
+        "kullanim_sikligi":  609
+    },
+    {
+        "komut":  "systemctl start <unit_name>.path",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.path",
+        "kullanim_sikligi":  607
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.path",
+        "kullanim_sikligi":  606
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.path",
+        "kullanim_sikligi":  605
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.path",
+        "kullanim_sikligi":  604
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.path",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.path",
+        "kullanim_sikligi":  602
+    },
+    {
+        "komut":  "systemctl show <unit_name>.path",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.path",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "systemctl status <unit_name>.mount",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "systemctl start <unit_name>.mount",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.mount",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.mount",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.mount",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.mount",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.mount",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.mount",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "systemctl show <unit_name>.mount",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.mount",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "systemctl status <unit_name>.target",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "systemctl start <unit_name>.target",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "systemctl stop <unit_name>.target",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "systemctl restart <unit_name>.target",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "systemctl enable <unit_name>.target",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "systemctl disable <unit_name>.target",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "systemctl is-active <unit_name>.target",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "systemctl is-enabled <unit_name>.target",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "systemctl show <unit_name>.target",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "systemctl list-dependencies <unit_name>.target",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "systemctl --user status <service_name>",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "systemctl --user start <service_name>",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "systemctl --user stop <service_name>",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "systemctl --user restart <service_name>",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "systemctl --user reload <service_name>",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "systemctl --user enable <service_name>",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "systemctl --user disable <service_name>",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "systemctl --user reenable <service_name>",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "systemctl --user mask <service_name>",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "systemctl --user unmask <service_name>",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "systemctl --user reset-failed <service_name>",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "systemctl --user is-active <service_name>",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "systemctl --user is-enabled <service_name>",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "systemctl --user show <service_name>",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "systemctl --user cat <service_name>",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "systemctl --user list-dependencies <service_name>",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "systemctl --user start --no-block <service_name>",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "systemctl --user restart --no-block <service_name>",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "systemctl --user enable --now <service_name>",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "systemctl --user disable --now <service_name>",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "systemctl --user status <unit_name>.service",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "systemctl --user start <unit_name>.service",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "systemctl --user stop <unit_name>.service",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "systemctl --user restart <unit_name>.service",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "systemctl --user enable <unit_name>.service",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "systemctl --user disable <unit_name>.service",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "systemctl --user is-active <unit_name>.service",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "systemctl --user is-enabled <unit_name>.service",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "systemctl --user show <unit_name>.service",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "systemctl --user status <unit_name>.timer",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "systemctl --user start <unit_name>.timer",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "systemctl enable --now <service_name>",
+        "kullanim_sikligi":  656
+    },
+    {
+        "komut":  "systemctl disable --now <service_name>",
+        "kullanim_sikligi":  655
+    },
+    {
+        "komut":  "systemctl --user stop <unit_name>.timer",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "systemctl --user restart <unit_name>.timer",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "systemctl --user enable <unit_name>.timer",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "systemctl --user disable <unit_name>.timer",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "systemctl --user is-active <unit_name>.timer",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "systemctl --user is-enabled <unit_name>.timer",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "systemctl --user show <unit_name>.timer",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "systemctl --user status <unit_name>.socket",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "systemctl --user start <unit_name>.socket",
+        "kullanim_sikligi":  660
+    },
+    {
+        "komut":  "systemctl --user stop <unit_name>.socket",
+        "kullanim_sikligi":  659
+    },
+    {
+        "komut":  "systemctl --user restart <unit_name>.socket",
+        "kullanim_sikligi":  658
+    },
+    {
+        "komut":  "systemctl --user enable <unit_name>.socket",
+        "kullanim_sikligi":  657
+    },
+    {
+        "komut":  "systemctl --user disable <unit_name>.socket",
+        "kullanim_sikligi":  656
+    },
+    {
+        "komut":  "systemctl --user is-active <unit_name>.socket",
+        "kullanim_sikligi":  655
+    },
+    {
+        "komut":  "systemctl --user is-enabled <unit_name>.socket",
+        "kullanim_sikligi":  654
+    },
+    {
+        "komut":  "systemctl --user show <unit_name>.socket",
+        "kullanim_sikligi":  653
+    },
+    {
+        "komut":  "systemctl --user status <unit_name>.path",
+        "kullanim_sikligi":  652
+    },
+    {
+        "komut":  "systemctl --user start <unit_name>.path",
+        "kullanim_sikligi":  651
+    },
+    {
+        "komut":  "systemctl --user stop <unit_name>.path",
+        "kullanim_sikligi":  650
+    },
+    {
+        "komut":  "systemctl --user restart <unit_name>.path",
+        "kullanim_sikligi":  649
+    },
+    {
+        "komut":  "systemctl --user enable <unit_name>.path",
+        "kullanim_sikligi":  648
+    },
+    {
+        "komut":  "systemctl --user disable <unit_name>.path",
+        "kullanim_sikligi":  647
+    },
+    {
+        "komut":  "systemctl --user is-active <unit_name>.path",
+        "kullanim_sikligi":  646
+    },
+    {
+        "komut":  "systemctl --user is-enabled <unit_name>.path",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "systemctl --user show <unit_name>.path",
+        "kullanim_sikligi":  644
+    },
+    {
+        "komut":  "service <service_name> status",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "sudo service <service_name> status",
+        "kullanim_sikligi":  612
+    },
+    {
+        "komut":  "service <service_name> start",
+        "kullanim_sikligi":  611
+    },
+    {
+        "komut":  "sudo service <service_name> start",
+        "kullanim_sikligi":  610
+    },
+    {
+        "komut":  "service <service_name> stop",
+        "kullanim_sikligi":  609
+    },
+    {
+        "komut":  "sudo service <service_name> stop",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "service <service_name> restart",
+        "kullanim_sikligi":  607
+    },
+    {
+        "komut":  "sudo service <service_name> restart",
+        "kullanim_sikligi":  606
+    },
+    {
+        "komut":  "service <service_name> reload",
+        "kullanim_sikligi":  605
+    },
+    {
+        "komut":  "sudo service <service_name> reload",
+        "kullanim_sikligi":  604
+    },
+    {
+        "komut":  "service <service_name> enable",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "sudo service <service_name> enable",
+        "kullanim_sikligi":  602
+    },
+    {
+        "komut":  "service <service_name> disable",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "sudo service <service_name> disable",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "service <service_name> try-restart",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "sudo service <service_name> try-restart",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "service <service_name> force-reload",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "sudo service <service_name> force-reload",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "systemctl status acpid",
+        "kullanim_sikligi":  636
+    },
+    {
+        "komut":  "systemctl start acpid",
+        "kullanim_sikligi":  635
+    },
+    {
+        "komut":  "systemctl stop acpid",
+        "kullanim_sikligi":  634
+    },
+    {
+        "komut":  "systemctl restart acpid",
+        "kullanim_sikligi":  633
+    },
+    {
+        "komut":  "systemctl reload acpid",
+        "kullanim_sikligi":  632
+    },
+    {
+        "komut":  "systemctl try-restart acpid",
+        "kullanim_sikligi":  631
+    },
+    {
+        "komut":  "systemctl reload-or-restart acpid",
+        "kullanim_sikligi":  630
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart acpid",
+        "kullanim_sikligi":  629
+    },
+    {
+        "komut":  "systemctl enable acpid",
+        "kullanim_sikligi":  628
+    },
+    {
+        "komut":  "systemctl disable acpid",
+        "kullanim_sikligi":  627
+    },
+    {
+        "komut":  "systemctl reenable acpid",
+        "kullanim_sikligi":  626
+    },
+    {
+        "komut":  "systemctl preset acpid",
+        "kullanim_sikligi":  625
+    },
+    {
+        "komut":  "systemctl mask acpid",
+        "kullanim_sikligi":  624
+    },
+    {
+        "komut":  "systemctl unmask acpid",
+        "kullanim_sikligi":  623
+    },
+    {
+        "komut":  "systemctl reset-failed acpid",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "systemctl is-active acpid",
+        "kullanim_sikligi":  621
+    },
+    {
+        "komut":  "systemctl is-enabled acpid",
+        "kullanim_sikligi":  620
+    },
+    {
+        "komut":  "systemctl show acpid",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "systemctl cat acpid",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "systemctl list-dependencies acpid",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState acpid",
+        "kullanim_sikligi":  616
+    },
+    {
+        "komut":  "systemctl show --property=SubState acpid",
+        "kullanim_sikligi":  615
+    },
+    {
+        "komut":  "systemctl start --no-block acpid",
+        "kullanim_sikligi":  614
+    },
+    {
+        "komut":  "systemctl restart --no-block acpid",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "sudo systemctl start acpid",
+        "kullanim_sikligi":  602
+    },
+    {
+        "komut":  "sudo systemctl stop acpid",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "sudo systemctl restart acpid",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "sudo systemctl reload acpid",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "sudo systemctl enable acpid",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "sudo systemctl disable acpid",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "sudo systemctl reenable acpid",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "sudo systemctl preset acpid",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "sudo systemctl mask acpid",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "sudo systemctl unmask acpid",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "sudo systemctl reset-failed acpid",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "sudo systemctl enable --now acpid",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "sudo systemctl disable --now acpid",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "systemctl status anacron",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "systemctl start anacron",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "systemctl stop anacron",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "systemctl restart anacron",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "systemctl reload anacron",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "systemctl try-restart anacron",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "systemctl reload-or-restart anacron",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart anacron",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "systemctl enable anacron",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "systemctl disable anacron",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "systemctl reenable anacron",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "systemctl preset anacron",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "systemctl mask anacron",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "systemctl unmask anacron",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "systemctl reset-failed anacron",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "systemctl is-active anacron",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "systemctl is-enabled anacron",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "systemctl show anacron",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "systemctl enable --now acpid",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "systemctl disable --now acpid",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "systemctl cat anacron",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "systemctl list-dependencies anacron",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState anacron",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "systemctl show --property=SubState anacron",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "systemctl start --no-block anacron",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "systemctl restart --no-block anacron",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "sudo systemctl start anacron",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "sudo systemctl stop anacron",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "sudo systemctl restart anacron",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "sudo systemctl reload anacron",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "sudo systemctl enable anacron",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "sudo systemctl disable anacron",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "sudo systemctl reenable anacron",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "sudo systemctl preset anacron",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "sudo systemctl mask anacron",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "sudo systemctl unmask anacron",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "sudo systemctl reset-failed anacron",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "sudo systemctl enable --now anacron",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "sudo systemctl disable --now anacron",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "systemctl status auditd",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "systemctl start auditd",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "systemctl stop auditd",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "systemctl restart auditd",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "systemctl reload auditd",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "systemctl try-restart auditd",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "systemctl reload-or-restart auditd",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart auditd",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "systemctl enable auditd",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "systemctl disable auditd",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "systemctl reenable auditd",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "systemctl preset auditd",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "systemctl mask auditd",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "systemctl unmask auditd",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "systemctl reset-failed auditd",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "systemctl is-active auditd",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "systemctl is-enabled auditd",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "systemctl show auditd",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "systemctl cat auditd",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "systemctl list-dependencies auditd",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState auditd",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "systemctl show --property=SubState auditd",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "systemctl start --no-block auditd",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "systemctl restart --no-block auditd",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "sudo systemctl start auditd",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "sudo systemctl stop auditd",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "sudo systemctl restart auditd",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "sudo systemctl reload auditd",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "sudo systemctl enable auditd",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "sudo systemctl disable auditd",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "sudo systemctl reenable auditd",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "sudo systemctl preset auditd",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "sudo systemctl mask auditd",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "sudo systemctl unmask auditd",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "sudo systemctl reset-failed auditd",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "sudo systemctl enable --now auditd",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "sudo systemctl disable --now auditd",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "systemctl status chronyd",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "systemctl start chronyd",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "systemctl stop chronyd",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "systemctl restart chronyd",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "systemctl reload chronyd",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "systemctl try-restart chronyd",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "systemctl reload-or-restart chronyd",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart chronyd",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "systemctl enable chronyd",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "systemctl disable chronyd",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "systemctl reenable chronyd",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "systemctl preset chronyd",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "systemctl mask chronyd",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "systemctl unmask chronyd",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "systemctl reset-failed chronyd",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "systemctl is-active chronyd",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "systemctl is-enabled chronyd",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "systemctl show chronyd",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "systemctl cat chronyd",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "systemctl list-dependencies chronyd",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState chronyd",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "systemctl show --property=SubState chronyd",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "systemctl start --no-block chronyd",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "systemctl restart --no-block chronyd",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "sudo systemctl start chronyd",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "sudo systemctl stop chronyd",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "sudo systemctl restart chronyd",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "sudo systemctl reload chronyd",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "sudo systemctl enable chronyd",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "sudo systemctl disable chronyd",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "sudo systemctl reenable chronyd",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "sudo systemctl preset chronyd",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "sudo systemctl mask chronyd",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "sudo systemctl unmask chronyd",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "sudo systemctl reset-failed chronyd",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "sudo systemctl enable --now chronyd",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "sudo systemctl disable --now chronyd",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "systemctl status containerd",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "systemctl start containerd",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "systemctl stop containerd",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "systemctl restart containerd",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "systemctl reload containerd",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "systemctl enable --now anacron",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "systemctl disable --now anacron",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "systemctl enable --now auditd",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "systemctl disable --now auditd",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "systemctl enable --now chronyd",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "systemctl disable --now chronyd",
+        "kullanim_sikligi":  640
+    },
+    {
+        "komut":  "systemctl try-restart containerd",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "systemctl reload-or-restart containerd",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart containerd",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "systemctl enable containerd",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "systemctl disable containerd",
+        "kullanim_sikligi":  650
+    },
+    {
+        "komut":  "systemctl reenable containerd",
+        "kullanim_sikligi":  649
+    },
+    {
+        "komut":  "systemctl preset containerd",
+        "kullanim_sikligi":  648
+    },
+    {
+        "komut":  "systemctl mask containerd",
+        "kullanim_sikligi":  647
+    },
+    {
+        "komut":  "systemctl unmask containerd",
+        "kullanim_sikligi":  646
+    },
+    {
+        "komut":  "systemctl reset-failed containerd",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "systemctl is-active containerd",
+        "kullanim_sikligi":  644
+    },
+    {
+        "komut":  "systemctl is-enabled containerd",
+        "kullanim_sikligi":  643
+    },
+    {
+        "komut":  "systemctl show containerd",
+        "kullanim_sikligi":  642
+    },
+    {
+        "komut":  "systemctl cat containerd",
+        "kullanim_sikligi":  641
+    },
+    {
+        "komut":  "systemctl list-dependencies containerd",
+        "kullanim_sikligi":  640
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState containerd",
+        "kullanim_sikligi":  639
+    },
+    {
+        "komut":  "systemctl show --property=SubState containerd",
+        "kullanim_sikligi":  638
+    },
+    {
+        "komut":  "systemctl start --no-block containerd",
+        "kullanim_sikligi":  637
+    },
+    {
+        "komut":  "systemctl restart --no-block containerd",
+        "kullanim_sikligi":  636
+    },
+    {
+        "komut":  "sudo systemctl start containerd",
+        "kullanim_sikligi":  620
+    },
+    {
+        "komut":  "sudo systemctl stop containerd",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "sudo systemctl restart containerd",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "sudo systemctl reload containerd",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "sudo systemctl enable containerd",
+        "kullanim_sikligi":  616
+    },
+    {
+        "komut":  "sudo systemctl disable containerd",
+        "kullanim_sikligi":  615
+    },
+    {
+        "komut":  "sudo systemctl reenable containerd",
+        "kullanim_sikligi":  614
+    },
+    {
+        "komut":  "sudo systemctl preset containerd",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "sudo systemctl mask containerd",
+        "kullanim_sikligi":  612
+    },
+    {
+        "komut":  "sudo systemctl unmask containerd",
+        "kullanim_sikligi":  611
+    },
+    {
+        "komut":  "sudo systemctl reset-failed containerd",
+        "kullanim_sikligi":  610
+    },
+    {
+        "komut":  "sudo systemctl enable --now containerd",
+        "kullanim_sikligi":  609
+    },
+    {
+        "komut":  "sudo systemctl disable --now containerd",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "systemctl status coredns",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "systemctl start coredns",
+        "kullanim_sikligi":  621
+    },
+    {
+        "komut":  "systemctl stop coredns",
+        "kullanim_sikligi":  620
+    },
+    {
+        "komut":  "systemctl restart coredns",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "systemctl reload coredns",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "systemctl try-restart coredns",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "systemctl reload-or-restart coredns",
+        "kullanim_sikligi":  616
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart coredns",
+        "kullanim_sikligi":  615
+    },
+    {
+        "komut":  "systemctl enable coredns",
+        "kullanim_sikligi":  614
+    },
+    {
+        "komut":  "systemctl disable coredns",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "systemctl reenable coredns",
+        "kullanim_sikligi":  612
+    },
+    {
+        "komut":  "systemctl preset coredns",
+        "kullanim_sikligi":  611
+    },
+    {
+        "komut":  "systemctl mask coredns",
+        "kullanim_sikligi":  610
+    },
+    {
+        "komut":  "systemctl unmask coredns",
+        "kullanim_sikligi":  609
+    },
+    {
+        "komut":  "systemctl reset-failed coredns",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "systemctl is-active coredns",
+        "kullanim_sikligi":  607
+    },
+    {
+        "komut":  "systemctl is-enabled coredns",
+        "kullanim_sikligi":  606
+    },
+    {
+        "komut":  "systemctl show coredns",
+        "kullanim_sikligi":  605
+    },
+    {
+        "komut":  "systemctl cat coredns",
+        "kullanim_sikligi":  604
+    },
+    {
+        "komut":  "systemctl list-dependencies coredns",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState coredns",
+        "kullanim_sikligi":  602
+    },
+    {
+        "komut":  "systemctl show --property=SubState coredns",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "systemctl start --no-block coredns",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "systemctl restart --no-block coredns",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "sudo systemctl start coredns",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "sudo systemctl stop coredns",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "sudo systemctl restart coredns",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "sudo systemctl reload coredns",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "sudo systemctl enable coredns",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "sudo systemctl disable coredns",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "sudo systemctl reenable coredns",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "sudo systemctl preset coredns",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "sudo systemctl mask coredns",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "sudo systemctl unmask coredns",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "sudo systemctl reset-failed coredns",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "sudo systemctl enable --now coredns",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "sudo systemctl disable --now coredns",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "systemctl status dnsmasq",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "systemctl start dnsmasq",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "systemctl stop dnsmasq",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "systemctl restart dnsmasq",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "systemctl reload dnsmasq",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "systemctl try-restart dnsmasq",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "systemctl reload-or-restart dnsmasq",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart dnsmasq",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "systemctl enable dnsmasq",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "systemctl disable dnsmasq",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "systemctl reenable dnsmasq",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "systemctl preset dnsmasq",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "systemctl mask dnsmasq",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "systemctl unmask dnsmasq",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "systemctl reset-failed dnsmasq",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "systemctl is-active dnsmasq",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "systemctl is-enabled dnsmasq",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "systemctl show dnsmasq",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "systemctl cat dnsmasq",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "systemctl list-dependencies dnsmasq",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState dnsmasq",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "systemctl show --property=SubState dnsmasq",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "systemctl start --no-block dnsmasq",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "systemctl restart --no-block dnsmasq",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "sudo systemctl start dnsmasq",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "systemctl enable --now containerd",
+        "kullanim_sikligi":  604
+    },
+    {
+        "komut":  "systemctl disable --now containerd",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "systemctl enable --now coredns",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "systemctl disable --now coredns",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "sudo systemctl stop dnsmasq",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "sudo systemctl restart dnsmasq",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "sudo systemctl reload dnsmasq",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "sudo systemctl enable dnsmasq",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "sudo systemctl disable dnsmasq",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "sudo systemctl reenable dnsmasq",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "sudo systemctl preset dnsmasq",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "sudo systemctl mask dnsmasq",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "sudo systemctl unmask dnsmasq",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "sudo systemctl reset-failed dnsmasq",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "sudo systemctl enable --now dnsmasq",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "sudo systemctl disable --now dnsmasq",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "systemctl status elasticsearch",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "systemctl start elasticsearch",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "systemctl stop elasticsearch",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "systemctl restart elasticsearch",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "systemctl reload elasticsearch",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "systemctl try-restart elasticsearch",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "systemctl reload-or-restart elasticsearch",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart elasticsearch",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "systemctl enable elasticsearch",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "systemctl disable elasticsearch",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "systemctl reenable elasticsearch",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "systemctl preset elasticsearch",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "systemctl mask elasticsearch",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "systemctl unmask elasticsearch",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "systemctl reset-failed elasticsearch",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "systemctl is-active elasticsearch",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "systemctl is-enabled elasticsearch",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "systemctl show elasticsearch",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "systemctl cat elasticsearch",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "systemctl list-dependencies elasticsearch",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState elasticsearch",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "systemctl show --property=SubState elasticsearch",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "systemctl start --no-block elasticsearch",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "systemctl restart --no-block elasticsearch",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "sudo systemctl start elasticsearch",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "sudo systemctl stop elasticsearch",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "sudo systemctl restart elasticsearch",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "sudo systemctl reload elasticsearch",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "sudo systemctl enable elasticsearch",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "sudo systemctl disable elasticsearch",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "sudo systemctl reenable elasticsearch",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "sudo systemctl preset elasticsearch",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "sudo systemctl mask elasticsearch",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "sudo systemctl unmask elasticsearch",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "sudo systemctl reset-failed elasticsearch",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "sudo systemctl enable --now elasticsearch",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "sudo systemctl disable --now elasticsearch",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "systemctl status grafana-server",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "systemctl start grafana-server",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "systemctl stop grafana-server",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "systemctl restart grafana-server",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "systemctl reload grafana-server",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "systemctl try-restart grafana-server",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "systemctl reload-or-restart grafana-server",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart grafana-server",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "systemctl enable grafana-server",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "systemctl disable grafana-server",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "systemctl reenable grafana-server",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "systemctl preset grafana-server",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "systemctl mask grafana-server",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "systemctl unmask grafana-server",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "systemctl reset-failed grafana-server",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "systemctl is-active grafana-server",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "systemctl is-enabled grafana-server",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "systemctl show grafana-server",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "systemctl cat grafana-server",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "systemctl list-dependencies grafana-server",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState grafana-server",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "systemctl show --property=SubState grafana-server",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "systemctl start --no-block grafana-server",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "systemctl restart --no-block grafana-server",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "sudo systemctl start grafana-server",
+        "kullanim_sikligi":  638
+    },
+    {
+        "komut":  "sudo systemctl stop grafana-server",
+        "kullanim_sikligi":  637
+    },
+    {
+        "komut":  "sudo systemctl restart grafana-server",
+        "kullanim_sikligi":  636
+    },
+    {
+        "komut":  "sudo systemctl reload grafana-server",
+        "kullanim_sikligi":  635
+    },
+    {
+        "komut":  "sudo systemctl enable grafana-server",
+        "kullanim_sikligi":  634
+    },
+    {
+        "komut":  "sudo systemctl disable grafana-server",
+        "kullanim_sikligi":  633
+    },
+    {
+        "komut":  "sudo systemctl reenable grafana-server",
+        "kullanim_sikligi":  632
+    },
+    {
+        "komut":  "sudo systemctl preset grafana-server",
+        "kullanim_sikligi":  631
+    },
+    {
+        "komut":  "sudo systemctl mask grafana-server",
+        "kullanim_sikligi":  630
+    },
+    {
+        "komut":  "sudo systemctl unmask grafana-server",
+        "kullanim_sikligi":  629
+    },
+    {
+        "komut":  "sudo systemctl reset-failed grafana-server",
+        "kullanim_sikligi":  628
+    },
+    {
+        "komut":  "sudo systemctl enable --now grafana-server",
+        "kullanim_sikligi":  627
+    },
+    {
+        "komut":  "sudo systemctl disable --now grafana-server",
+        "kullanim_sikligi":  626
+    },
+    {
+        "komut":  "systemctl status influxdb",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "systemctl start influxdb",
+        "kullanim_sikligi":  644
+    },
+    {
+        "komut":  "systemctl stop influxdb",
+        "kullanim_sikligi":  643
+    },
+    {
+        "komut":  "systemctl restart influxdb",
+        "kullanim_sikligi":  642
+    },
+    {
+        "komut":  "systemctl reload influxdb",
+        "kullanim_sikligi":  641
+    },
+    {
+        "komut":  "systemctl try-restart influxdb",
+        "kullanim_sikligi":  640
+    },
+    {
+        "komut":  "systemctl reload-or-restart influxdb",
+        "kullanim_sikligi":  639
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart influxdb",
+        "kullanim_sikligi":  638
+    },
+    {
+        "komut":  "systemctl enable influxdb",
+        "kullanim_sikligi":  637
+    },
+    {
+        "komut":  "systemctl disable influxdb",
+        "kullanim_sikligi":  636
+    },
+    {
+        "komut":  "systemctl enable --now dnsmasq",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "systemctl disable --now dnsmasq",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "systemctl enable --now elasticsearch",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "systemctl disable --now elasticsearch",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "systemctl enable --now grafana-server",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "systemctl disable --now grafana-server",
+        "kullanim_sikligi":  621
+    },
+    {
+        "komut":  "systemctl reenable influxdb",
+        "kullanim_sikligi":  635
+    },
+    {
+        "komut":  "systemctl preset influxdb",
+        "kullanim_sikligi":  634
+    },
+    {
+        "komut":  "systemctl mask influxdb",
+        "kullanim_sikligi":  633
+    },
+    {
+        "komut":  "systemctl unmask influxdb",
+        "kullanim_sikligi":  632
+    },
+    {
+        "komut":  "systemctl reset-failed influxdb",
+        "kullanim_sikligi":  631
+    },
+    {
+        "komut":  "systemctl is-active influxdb",
+        "kullanim_sikligi":  630
+    },
+    {
+        "komut":  "systemctl is-enabled influxdb",
+        "kullanim_sikligi":  629
+    },
+    {
+        "komut":  "systemctl show influxdb",
+        "kullanim_sikligi":  628
+    },
+    {
+        "komut":  "systemctl cat influxdb",
+        "kullanim_sikligi":  627
+    },
+    {
+        "komut":  "systemctl list-dependencies influxdb",
+        "kullanim_sikligi":  626
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState influxdb",
+        "kullanim_sikligi":  625
+    },
+    {
+        "komut":  "systemctl show --property=SubState influxdb",
+        "kullanim_sikligi":  624
+    },
+    {
+        "komut":  "systemctl start --no-block influxdb",
+        "kullanim_sikligi":  623
+    },
+    {
+        "komut":  "systemctl restart --no-block influxdb",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "sudo systemctl start influxdb",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "sudo systemctl stop influxdb",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "sudo systemctl restart influxdb",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "sudo systemctl reload influxdb",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "sudo systemctl enable influxdb",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "sudo systemctl disable influxdb",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "sudo systemctl reenable influxdb",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "sudo systemctl preset influxdb",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "sudo systemctl mask influxdb",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "sudo systemctl unmask influxdb",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "sudo systemctl reset-failed influxdb",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "sudo systemctl enable --now influxdb",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "sudo systemctl disable --now influxdb",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "systemctl status kibana",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "systemctl start kibana",
+        "kullanim_sikligi":  607
+    },
+    {
+        "komut":  "systemctl stop kibana",
+        "kullanim_sikligi":  606
+    },
+    {
+        "komut":  "systemctl restart kibana",
+        "kullanim_sikligi":  605
+    },
+    {
+        "komut":  "systemctl reload kibana",
+        "kullanim_sikligi":  604
+    },
+    {
+        "komut":  "systemctl try-restart kibana",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "systemctl reload-or-restart kibana",
+        "kullanim_sikligi":  602
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart kibana",
+        "kullanim_sikligi":  601
+    },
+    {
+        "komut":  "systemctl enable kibana",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "systemctl disable kibana",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "systemctl reenable kibana",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "systemctl preset kibana",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "systemctl mask kibana",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "systemctl unmask kibana",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "systemctl reset-failed kibana",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "systemctl is-active kibana",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "systemctl is-enabled kibana",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "systemctl show kibana",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "systemctl cat kibana",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "systemctl list-dependencies kibana",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState kibana",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "systemctl show --property=SubState kibana",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "systemctl start --no-block kibana",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "systemctl restart --no-block kibana",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "sudo systemctl start kibana",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "sudo systemctl stop kibana",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "sudo systemctl restart kibana",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "sudo systemctl reload kibana",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "sudo systemctl enable kibana",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "sudo systemctl disable kibana",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "sudo systemctl reenable kibana",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "sudo systemctl preset kibana",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "sudo systemctl mask kibana",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "sudo systemctl unmask kibana",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "sudo systemctl reset-failed kibana",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "sudo systemctl enable --now kibana",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "sudo systemctl disable --now kibana",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "systemctl status kubelet",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "systemctl start kubelet",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "systemctl stop kubelet",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "systemctl restart kubelet",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "systemctl reload kubelet",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "systemctl try-restart kubelet",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "systemctl reload-or-restart kubelet",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart kubelet",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "systemctl enable kubelet",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "systemctl disable kubelet",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "systemctl reenable kubelet",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "systemctl preset kubelet",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "systemctl mask kubelet",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "systemctl unmask kubelet",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "systemctl reset-failed kubelet",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "systemctl is-active kubelet",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "systemctl is-enabled kubelet",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "systemctl show kubelet",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "systemctl cat kubelet",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "systemctl list-dependencies kubelet",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState kubelet",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "systemctl show --property=SubState kubelet",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "systemctl start --no-block kubelet",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "systemctl restart --no-block kubelet",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "sudo systemctl start kubelet",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "sudo systemctl stop kubelet",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "sudo systemctl restart kubelet",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "sudo systemctl reload kubelet",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "sudo systemctl enable kubelet",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "sudo systemctl disable kubelet",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "systemctl enable --now influxdb",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "systemctl disable --now influxdb",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "systemctl enable --now kibana",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "systemctl disable --now kibana",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "sudo systemctl reenable kubelet",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "sudo systemctl preset kubelet",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "sudo systemctl mask kubelet",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "sudo systemctl unmask kubelet",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "sudo systemctl reset-failed kubelet",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "sudo systemctl enable --now kubelet",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "sudo systemctl disable --now kubelet",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "systemctl status memcached",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "systemctl start memcached",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "systemctl stop memcached",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "systemctl restart memcached",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "systemctl reload memcached",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "systemctl try-restart memcached",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "systemctl reload-or-restart memcached",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart memcached",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "systemctl enable memcached",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "systemctl disable memcached",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "systemctl reenable memcached",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "systemctl preset memcached",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "systemctl mask memcached",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "systemctl unmask memcached",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "systemctl reset-failed memcached",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "systemctl is-active memcached",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "systemctl is-enabled memcached",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "systemctl show memcached",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "systemctl cat memcached",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "systemctl list-dependencies memcached",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState memcached",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "systemctl show --property=SubState memcached",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "systemctl start --no-block memcached",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "systemctl restart --no-block memcached",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "sudo systemctl start memcached",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "sudo systemctl stop memcached",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "sudo systemctl restart memcached",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "sudo systemctl reload memcached",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "sudo systemctl enable memcached",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "sudo systemctl disable memcached",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "sudo systemctl reenable memcached",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "sudo systemctl preset memcached",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "sudo systemctl mask memcached",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "sudo systemctl unmask memcached",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "sudo systemctl reset-failed memcached",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "sudo systemctl enable --now memcached",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "sudo systemctl disable --now memcached",
+        "kullanim_sikligi":  644
+    },
+    {
+        "komut":  "systemctl status mongod",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "systemctl start mongod",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "systemctl stop mongod",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "systemctl restart mongod",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "systemctl reload mongod",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "systemctl try-restart mongod",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "systemctl reload-or-restart mongod",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart mongod",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "systemctl enable mongod",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "systemctl disable mongod",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "systemctl reenable mongod",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "systemctl preset mongod",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "systemctl mask mongod",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "systemctl unmask mongod",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "systemctl reset-failed mongod",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "systemctl is-active mongod",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "systemctl is-enabled mongod",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "systemctl show mongod",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "systemctl cat mongod",
+        "kullanim_sikligi":  650
+    },
+    {
+        "komut":  "systemctl list-dependencies mongod",
+        "kullanim_sikligi":  649
+    },
+    {
+        "komut":  "systemctl show --property=ActiveState mongod",
+        "kullanim_sikligi":  648
+    },
+    {
+        "komut":  "systemctl show --property=SubState mongod",
+        "kullanim_sikligi":  647
+    },
+    {
+        "komut":  "systemctl start --no-block mongod",
+        "kullanim_sikligi":  646
+    },
+    {
+        "komut":  "systemctl restart --no-block mongod",
+        "kullanim_sikligi":  645
+    },
+    {
+        "komut":  "sudo systemctl start mongod",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "sudo systemctl stop mongod",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "sudo systemctl restart mongod",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "sudo systemctl reload mongod",
+        "kullanim_sikligi":  616
+    },
+    {
+        "komut":  "sudo systemctl enable mongod",
+        "kullanim_sikligi":  615
+    },
+    {
+        "komut":  "sudo systemctl disable mongod",
+        "kullanim_sikligi":  614
+    },
+    {
+        "komut":  "sudo systemctl reenable mongod",
+        "kullanim_sikligi":  613
+    },
+    {
+        "komut":  "sudo systemctl preset mongod",
+        "kullanim_sikligi":  612
+    },
+    {
+        "komut":  "sudo systemctl mask mongod",
+        "kullanim_sikligi":  611
+    },
+    {
+        "komut":  "sudo systemctl unmask mongod",
+        "kullanim_sikligi":  610
+    },
+    {
+        "komut":  "sudo systemctl reset-failed mongod",
+        "kullanim_sikligi":  609
+    },
+    {
+        "komut":  "sudo systemctl enable --now mongod",
+        "kullanim_sikligi":  608
+    },
+    {
+        "komut":  "sudo systemctl disable --now mongod",
+        "kullanim_sikligi":  607
+    },
+    {
+        "komut":  "systemctl status mosquitto",
+        "kullanim_sikligi":  631
+    },
+    {
+        "komut":  "systemctl start mosquitto",
+        "kullanim_sikligi":  630
+    },
+    {
+        "komut":  "systemctl stop mosquitto",
+        "kullanim_sikligi":  629
+    },
+    {
+        "komut":  "systemctl restart mosquitto",
+        "kullanim_sikligi":  628
+    },
+    {
+        "komut":  "systemctl reload mosquitto",
+        "kullanim_sikligi":  627
+    },
+    {
+        "komut":  "systemctl try-restart mosquitto",
+        "kullanim_sikligi":  626
+    },
+    {
+        "komut":  "systemctl reload-or-restart mosquitto",
+        "kullanim_sikligi":  625
+    },
+    {
+        "komut":  "systemctl reload-or-try-restart mosquitto",
+        "kullanim_sikligi":  624
+    },
+    {
+        "komut":  "systemctl enable mosquitto",
+        "kullanim_sikligi":  623
+    },
+    {
+        "komut":  "systemctl disable mosquitto",
+        "kullanim_sikligi":  622
+    },
+    {
+        "komut":  "systemctl reenable mosquitto",
+        "kullanim_sikligi":  621
+    },
+    {
+        "komut":  "systemctl preset mosquitto",
+        "kullanim_sikligi":  620
+    },
+    {
+        "komut":  "systemctl mask mosquitto",
+        "kullanim_sikligi":  619
+    },
+    {
+        "komut":  "systemctl unmask mosquitto",
+        "kullanim_sikligi":  618
+    },
+    {
+        "komut":  "systemctl reset-failed mosquitto",
+        "kullanim_sikligi":  617
+    },
+    {
+        "komut":  "systemctl enable --now kubelet",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "systemctl disable --now kubelet",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "systemctl enable --now memcached",
+        "kullanim_sikligi":  640
+    },
+    {
+        "komut":  "systemctl disable --now memcached",
+        "kullanim_sikligi":  639
+    },
+    {
+        "komut":  "systemctl enable --now mongod",
+        "kullanim_sikligi":  603
+    },
+    {
+        "komut":  "systemctl disable --now mongod",
+        "kullanim_sikligi":  602
     }
 ]
