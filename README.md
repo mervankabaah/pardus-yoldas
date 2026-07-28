@@ -2,7 +2,7 @@
 
 **Pardus Yoldaş**, Pardus ve Debian tabanlı Linux dağıtımlarında komut yazmayı kolaylaştıran, terminal içinde çalışan akıllı öneri uygulamasıdır. Bir komutun başını yazdığınızda, devamını soluk (hayalet) metin olarak önerir. Öneriyi tamamlayabilir, alternatiflerine geçebilir veya komutu doğrudan çalıştırabilirsiniz.
 
-Uygulama, `komutlar.json` dosyasındaki **4.006 komutluk** havuzu kullanır. Eşleşen öneriler önce kullanım sıklığına göre sıralanır: daha sık kullanılan komutlar önce, daha az kullanılanlar sonra gösterilir.
+Uygulama, `komutlar.json` dosyasındaki **6.000 komutluk** havuzu kullanır. Eşleşen öneriler önce kullanım sıklığına göre sıralanır: daha sık kullanılan komutlar önce, daha az kullanılanlar sonra gösterilir.
 
 > Dikkat: Pardus Yoldaş girilen komutları Bash ile gerçekten çalıştırır. Bir önerinin görünmesi onun güvenli, sisteminizde kurulu veya her durumda uygun olduğu anlamına gelmez. `sudo`, dosya silme ve disk işlemleri gibi komutları çalıştırmadan önce mutlaka kontrol edin.
 
@@ -121,7 +121,7 @@ python app.py
 Başlangıçta buna benzer bir mesaj görürsünüz:
 
 ```text
---- Pardus Akıllı Terminal (4006 komut yüklendi) ---
+--- Pardus Akıllı Terminal (6000 komut yüklendi) ---
 kullanici@pardusyoldaş:$
 ```
 
