@@ -6,7 +6,7 @@ Pardus, Debian ve Debian tabanlı Linux sistemleri için geliştirilmiş basit b
 
 - Pardus/Debian odaklı komut tamamlama
 - `apt`, `systemctl`, `journalctl`, `ls`, `cd`, `rm`, `cp`, `mv`, `tar`, `chmod`, `chown`, `grep`, `awk`, `sed`, `docker`, `git`, `ssh`, `ufw`, `nano`, `vim` gibi araçlar için hazır komut havuzu
-- `komutlar.json` içinde 3000 adet gerçekçi terminal komutu
+- `komutlar.json` içinde 4000 adet gerçekçi terminal komutu
 - Her komutta sayısal `kullanim_sikligi` değeri ile frekansa göre öneri sıralaması
 - `cd` komutunu oturum içinde çalıştırma
 - `exit` veya `quit` ile çıkış
