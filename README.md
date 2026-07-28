@@ -1,253 +1,160 @@
-# Pardus Akıllı Terminal
+# Pardus Yoldaş
 
-Pardus, Debian ve Debian tabanlı Linux sistemleri için geliştirilmiş basit bir akıllı terminal denemesidir. Uygulama `prompt_toolkit` kullanarak yazılan komuta göre `komutlar.json` içindeki yaygın terminal komutlarını hayalet metin olarak önerir.
+Pardus Yoldaş, Pardus ve Debian tabanlı Linux sistemleri için geliştirilmiş, terminal komutlarını yazarken hayalet metinle öneren küçük bir terminal uygulamasıdır. `prompt_toolkit` ile çalışan uygulama, önerilerini `komutlar.json` içindeki komut havuzundan alır ve komutları kullanım sıklığına göre sıralar.
+
+> Bu uygulama gerçek komutları çalıştırır. Bir öneriyi kabul etmek, komutu güvenli hâle getirmez; çalıştırmadan önce komutu kontrol edin.
 
 ## Özellikler
 
-- Pardus/Debian odaklı komut tamamlama
-- `apt`, `systemctl`, `journalctl`, `ls`, `cd`, `rm`, `cp`, `mv`, `tar`, `chmod`, `chown`, `grep`, `awk`, `sed`, `docker`, `git`, `ssh`, `ufw`, `nano`, `vim` gibi araçlar için hazır komut havuzu
-- `komutlar.json` içinde 2001 adet gerçekçi terminal komutu
-- Her komutta sayısal `kullanim_sikligi` değeri ile frekansa göre öneri sıralaması
-- `cd` komutunu oturum içinde çalıştırma
-- `exit` veya `quit` ile çıkış
+- `komutlar.json` içindeki 4006 komutla otomatik öneri
+- Kullanım sıklığına göre sıralama
+- `Tab` ile öneriyi tamamlama, `Shift+Tab` ile alternatif öneriye geçme
+- Oturum içinde çalışan `cd`, `cd -` ve `cd klasor` desteği
+- Bash ile komut yürütme
+- Uygulama içinden `source venv/bin/activate` ile Python sanal ortamı etkinleştirme
+- `deactivate`, `exit` ve `quit` komutları
 
 ## Gereksinimler
 
-- Pardus veya Debian tabanlı bir Linux dağıtımı
-- Python 3
-- Python sanal ortam desteği
+- Pardus veya başka bir Debian tabanlı Linux dağıtımı
+- Python 3 ve `venv` desteği
 - `pip`
-- GitHub üzerinden klonlama yapılacaksa `git`
+- Git ile kurulum için `git`
 
-## Kurulum
-
-### 1. Projeyi İndirin
-
-GitHub deposunu bilgisayarınıza klonlayın:
-
-```bash
-git clone https://github.com/kullanici/pardus-akilli-terminal.git
-cd pardus-akilli-terminal
-```
-
-Depoyu ZIP olarak indirdiyseniz klasöre terminalden girin:
-
-```bash
-cd pardus-akilli-terminal
-```
-
-### 2. Python ve Venv Paketlerini Kurun
-
-Pardus/Debian sistemlerde önce paket listesini güncelleyin:
+Gerekli sistem paketleri:
 
 ```bash
 sudo apt update
+sudo apt install -y python3 python3-venv python3-pip git
 ```
 
-Uygulamanın çalışması için gereken sistem paketlerini kurun:
+## Kurulum
+
+Depoyu klonlayın ve proje dizinine girin:
 
 ```bash
-sudo apt install -y python3 python3-venv python3-pip
+git clone https://github.com/mervankabaah/pardus-yoldas.git
+cd pardus-yoldas
 ```
 
-Projeyi GitHub üzerinden klonlayacaksanız ayrıca `git` gerekir:
-
-```bash
-sudo apt install -y git
-```
-
-Kurulumu kontrol edin:
-
-```bash
-python3 --version
-```
-
-### 3. Sanal Ortam Oluşturun
-
-Proje klasörü içinde `venv` adlı sanal ortamı oluşturun:
+Sanal ortamı oluşturup bağımlılıkları yükleyin:
 
 ```bash
 python3 -m venv venv
-```
-
-Sanal ortamı etkinleştirin:
-
-```bash
 source venv/bin/activate
-```
-
-Terminal satırının başında `(venv)` görüyorsanız sanal ortam aktiftir.
-
-### 4. Python Kütüphanelerini Kurun
-
-Sanal ortam aktifken Python bağımlılıklarını `requirements.txt` dosyasından kurun:
-
-```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Kurulan paketleri kontrol etmek için:
-
-```bash
-pip list
-```
-
-### 5. Komut Havuzunu Kontrol Edin
-
-`komutlar.json` dosyası proje kök dizininde bulunmalıdır. JSON dosyasının geçerli olduğunu kontrol etmek için:
-
-```bash
-python3 -m json.tool komutlar.json
-```
-
-Komut sayısını kontrol etmek için:
-
-```bash
-python3 -c "import json; print(len(json.load(open('komutlar.json', encoding='utf-8'))))"
-```
-
-Çıktı `2001` olmalıdır.
-
-`komutlar.json` içinde `docker`, `nginx`, `ufw`, `ssh` gibi farklı araçlara ait örnek komutlar bulunabilir. Bunlar sadece autocomplete önerileridir; uygulamanın çalışması için bu araçların kurulması zorunlu değildir.
-
 ## Çalıştırma
 
-Sanal ortam aktifken uygulamayı başlatın:
+Sanal ortam etkin durumdayken uygulamayı başlatın:
 
 ```bash
-python3 app.py
+python app.py
 ```
 
-Başarılı çalıştığında şuna benzer bir ekran görürsünüz:
+Örnek başlangıç ekranı:
 
 ```text
---- Pardus Akıllı Terminal (2001 komut yüklendi) ---
+--- Pardus Akıllı Terminal (4006 komut yüklendi) ---
 mervan@pardusyoldaş:$
 ```
 
-Uygulama açıldığında otomatik olarak kullanıcının ana dizininde başlar. Yani `app.py` hangi klasörden çalıştırılırsa çalıştırılsın komutlar varsayılan olarak `$HOME` dizininde çalışır.
+Uygulama varsayılan olarak kullanıcının ana dizininde (`$HOME`) başlar. Başka bir dizinde çalışmak için `cd` kullanın:
+
+```text
+mervan@pardusyoldaş:$ cd ~/Masaüstü/yoldaş
+mervan@pardusyoldaş:~/Masaüstü/yoldaş$
+```
 
 ## Kullanım
 
-Komut yazmaya başladığınızda uygulama `komutlar.json` içindeki uygun komutları `kullanim_sikligi` değerine göre yüksekten düşüğe sıralar ve en sık kullanılan eşleşmeyi hayalet metin olarak önerir.
+Bir komutun ilk harflerini yazın. Görünen hayalet öneriyi `Tab` ile satıra ekleyin, sonra çalıştırmak için `Enter`a basın. Aynı önek için başka önerileri `Shift+Tab` ile dolaşabilirsiniz.
 
-Örnek:
-
-```text
-mervan@pardusyoldaş:$ sudo apt up
-```
-
-Bu giriş için öneri olarak eşleşen komutlar arasındaki `kullanim_sikligi` değeri en yüksek olan komut önce görüntülenir; diğer alternatiflere `Shift+Tab` ile geçilebilir.
-
-Öneriyi kabul etmek için `Tab` tuşuna basabilirsiniz. Bu işlem öneriyi satıra ekler ve imleci satırın sonuna taşır; komutu çalıştırmaz. Komutu çalıştırmak için ayrıca `Enter` tuşuna basmanız gerekir.
-
-Ana dizindeyken prompt içinde dizin yazmaz. Farklı bir dizine geçtiğinizde konum bilgisi mavi renkte görünür:
-
-```text
-mervan@pardusyoldaş:~/Masaüstü$
-```
-
-## Kısayollar
-
-| Tuş / Komut | Açıklama |
+| Tuş / komut | Davranış |
 | --- | --- |
-| `Tab` | Ekranda görünen tahmini satıra uygular, komutu çalıştırmaz. |
-| `Shift+Tab` | Aynı yazılan metin için bir sonraki tahmine geçer. Tüm tahminleri göstermeden aynı tahmini tekrar göstermez; liste bitince ilk tahmine döner. |
-| `Enter` | Satırda yazılı olan komutu çalıştırır. |
-| `Ctrl+C` | Yazılan satırı iptal eder ve yeni satıra geçer. |
-| `exit` | Uygulamadan çıkar. |
-| `quit` | Uygulamadan çıkar. |
-
-## Desteklenen Komut Davranışları
-
-| Komut | Açıklama |
-| --- | --- |
+| `Tab` | Görünen öneriyi satıra ekler. Komutu çalıştırmaz. |
+| `Shift+Tab` | Bir sonraki uygun öneriyi gösterir. |
+| `Enter` | Satırdaki komutu çalıştırır. |
+| `Ctrl+C` | Girilen satırı iptal eder. |
 | `cd` | Ana dizine geçer. |
 | `cd klasor` | Belirtilen klasöre geçer. |
-| `cd -` | Bir önceki klasöre döner. |
+| `cd -` | Önceki dizine döner. |
+| `exit` / `quit` | Uygulamadan çıkar. |
 
-Çıkmak için:
+## Bash ve sanal ortam kullanımı
 
-```bash
-exit
-```
+Pardus Yoldaş, girilen komutları Bash ile çalıştırır; bu nedenle `source`, `[[ ... ]]` ve Bash’e ait diğer sözdizimi özellikleri komut düzeyinde kullanılabilir.
 
-veya:
-
-```bash
-quit
-```
-
-## Proje Yapısı
+Uygulama açıkken bir proje sanal ortamını etkinleştirmek için önce o projenin dizinine gidin:
 
 ```text
-.
-├── app.py
-├── komutlar.json
-├── README.md
-└── requirements.txt
+mervan@pardusyoldaş:$ cd ~/Masaüstü/yoldaş
+mervan@pardusyoldaş:~/Masaüstü/yoldaş$ source venv/bin/activate
+Sanal ortam etkinleştirildi: /home/kullanici/Masaüstü/yoldaş/venv
+(venv) mervan@pardusyoldaş:~/Masaüstü/yoldaş$
 ```
 
-## Dosyalar
+Bu işlem `python` ve `pip` komutlarının ilgili sanal ortamdan çalışmasını sağlar. Ortamdan çıkmak için:
 
-- `app.py`: Akıllı terminal uygulamasının ana Python dosyası.
-- `komutlar.json`: Autocomplete için kullanılan 2001 komutluk, kullanım sıklığı değerli JSON listesi.
-- `requirements.txt`: Python bağımlılıkları.
-- `README.md`: Kurulum ve kullanım dokümantasyonu.
+```text
+(venv) mervan@pardusyoldaş:~/Masaüstü/yoldaş$ deactivate
+```
 
-## Komut Havuzunu Güncelleme
+`source /venv/bin/activate` yanlış bir yoldur; baştaki `/` kök dizini ifade eder. Proje içindeki ortam için `source venv/bin/activate` kullanın.
 
-Yeni komut eklemek için `komutlar.json` dosyasını açın ve JSON dizi formatını bozmadan yeni bir nesne ekleyin:
+Her komut ayrı bir Bash alt sürecinde yürütüldüğünden, genel `export`, `alias` veya başka bir dosyayı `source` etme işlemlerinin kabuk durumu sonraki komuta taşınmaz. `source .../bin/activate` ve `deactivate` sanal ortam için uygulama tarafından özel olarak kalıcı biçimde desteklenir.
+
+## Komut havuzu
+
+Öneriler [`komutlar.json`](komutlar.json) dosyasından gelir. Her kayıt şu biçimdedir:
 
 ```json
-[
-  {
-    "komut": "sudo apt update",
-    "kullanim_sikligi": 960
-  },
-  {
-    "komut": "sudo apt upgrade -y",
-    "kullanim_sikligi": 950
-  },
-  {
-    "komut": "systemctl status ssh",
-    "kullanim_sikligi": 720
-  }
-]
+{
+  "komut": "sudo apt update",
+  "kullanim_sikligi": 960
+}
 ```
 
-Dikkat edilmesi gerekenler:
+- `komut`: Önerilecek komut metni
+- `kullanim_sikligi`: Büyük değer önce önerilir
 
-- Dosya geçerli JSON array formatında kalmalıdır.
-- Her kayıt `komut` ve sayısal `kullanim_sikligi` alanlarını içermelidir.
-- Birden fazla komut aynı yazılan metinle eşleşirse `kullanim_sikligi` değeri yüksek olan önce önerilir.
-- Son elemandan sonra virgül olmamalıdır.
-- Dosyayı düzenledikten sonra `python3 -m json.tool komutlar.json` ile kontrol edin.
+Dosyayı düzenledikten sonra JSON biçimini doğrulayın:
 
-## Güvenlik Notu
+```bash
+python -c "import json; json.load(open('komutlar.json', encoding='utf-8-sig')); print('JSON geçerli')"
+```
 
-Bu uygulama girilen komutu sistem kabuğunda çalıştırır. Bu nedenle yalnızca ne yaptığını bildiğiniz komutları çalıştırın. Özellikle `sudo`, `rm`, `chmod`, `chown`, `iptables`, `ufw`, `docker`, `systemctl` ve disk işlemleri içeren komutlarda dikkatli olun.
+Komut havuzundaki örnekler yalnızca öneridir. Örneğin `docker`, `nmap` veya `ufw` ile ilgili bir önerinin görünmesi, bu araçların sistemde kurulu olduğu ya da kullanılmasının güvenli olduğu anlamına gelmez.
 
-## Sorun Giderme
+## Kontrol
 
-`ModuleNotFoundError: No module named 'prompt_toolkit'` hatası alırsanız sanal ortamı etkinleştirip bağımlılıkları yeniden kurun:
+Kurulum ve temel dosyaları kontrol etmek için:
+
+```bash
+python -m py_compile app.py
+python -c "import json; json.load(open('komutlar.json', encoding='utf-8-sig'))"
+```
+
+`ModuleNotFoundError: No module named 'prompt_toolkit'` hatasında sanal ortamı etkinleştirip bağımlılıkları yeniden kurun:
 
 ```bash
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`komutlar.json bulunamadı` hatası alırsanız uygulamayı proje kök dizininden çalıştırdığınızdan emin olun:
+## Proje yapısı
 
-```bash
-pwd
-ls
-python3 app.py
+```text
+.
+├── app.py             # Terminal uygulaması
+├── komutlar.json      # Otomatik tamamlama komut havuzu
+├── requirements.txt   # Python bağımlılıkları
+├── LICENSE            # GNU GPL v3
+└── README.md
 ```
 
-JSON hatası alırsanız dosyayı doğrulayın:
+## Lisans
 
-```bash
-python3 -m json.tool komutlar.json
-```
+Bu proje [GNU General Public License v3.0](LICENSE) ile lisanslanmıştır.
