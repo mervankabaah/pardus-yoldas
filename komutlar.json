@@ -8002,5 +8002,4001 @@
     {
         "komut":  "less .env",
         "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./logs -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./tmp -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./cache -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./backups -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./uploads -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./downloads -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./documents -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./src -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./config -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  501
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  538
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  575
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  491
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  528
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  565
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  481
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  518
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  555
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  592
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  508
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  545
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  582
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  498
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  535
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  572
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  488
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  525
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  562
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  599
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  515
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  552
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  589
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  505
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  542
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  579
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  495
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  532
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  569
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  485
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.jpg\" -mtime -4",
+        "kullanim_sikligi":  522
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.png\" -mtime -1",
+        "kullanim_sikligi":  559
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.png\" -mtime -2",
+        "kullanim_sikligi":  596
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.png\" -mtime -3",
+        "kullanim_sikligi":  512
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.png\" -mtime -4",
+        "kullanim_sikligi":  549
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.zip\" -mtime -1",
+        "kullanim_sikligi":  586
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.zip\" -mtime -2",
+        "kullanim_sikligi":  502
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.zip\" -mtime -3",
+        "kullanim_sikligi":  539
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.zip\" -mtime -4",
+        "kullanim_sikligi":  576
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.gz\" -mtime -1",
+        "kullanim_sikligi":  492
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.gz\" -mtime -2",
+        "kullanim_sikligi":  529
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.gz\" -mtime -3",
+        "kullanim_sikligi":  566
+    },
+    {
+        "komut":  "find ./data -type f -name \"*.gz\" -mtime -4",
+        "kullanim_sikligi":  482
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.log\" -mtime -1",
+        "kullanim_sikligi":  519
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.log\" -mtime -2",
+        "kullanim_sikligi":  556
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.log\" -mtime -3",
+        "kullanim_sikligi":  593
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.log\" -mtime -4",
+        "kullanim_sikligi":  509
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.tmp\" -mtime -1",
+        "kullanim_sikligi":  546
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.tmp\" -mtime -2",
+        "kullanim_sikligi":  583
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.tmp\" -mtime -3",
+        "kullanim_sikligi":  499
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.tmp\" -mtime -4",
+        "kullanim_sikligi":  536
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.bak\" -mtime -1",
+        "kullanim_sikligi":  573
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.bak\" -mtime -2",
+        "kullanim_sikligi":  489
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.bak\" -mtime -3",
+        "kullanim_sikligi":  526
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.bak\" -mtime -4",
+        "kullanim_sikligi":  563
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.old\" -mtime -1",
+        "kullanim_sikligi":  600
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.old\" -mtime -2",
+        "kullanim_sikligi":  516
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.old\" -mtime -3",
+        "kullanim_sikligi":  553
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.old\" -mtime -4",
+        "kullanim_sikligi":  590
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.txt\" -mtime -1",
+        "kullanim_sikligi":  506
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.txt\" -mtime -2",
+        "kullanim_sikligi":  543
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.txt\" -mtime -3",
+        "kullanim_sikligi":  580
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.txt\" -mtime -4",
+        "kullanim_sikligi":  496
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.json\" -mtime -1",
+        "kullanim_sikligi":  533
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.json\" -mtime -2",
+        "kullanim_sikligi":  570
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.json\" -mtime -3",
+        "kullanim_sikligi":  486
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.json\" -mtime -4",
+        "kullanim_sikligi":  523
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.csv\" -mtime -1",
+        "kullanim_sikligi":  560
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.csv\" -mtime -2",
+        "kullanim_sikligi":  597
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.csv\" -mtime -3",
+        "kullanim_sikligi":  513
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.csv\" -mtime -4",
+        "kullanim_sikligi":  550
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yml\" -mtime -1",
+        "kullanim_sikligi":  587
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yml\" -mtime -2",
+        "kullanim_sikligi":  503
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yml\" -mtime -3",
+        "kullanim_sikligi":  540
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yml\" -mtime -4",
+        "kullanim_sikligi":  577
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yaml\" -mtime -1",
+        "kullanim_sikligi":  493
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yaml\" -mtime -2",
+        "kullanim_sikligi":  530
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yaml\" -mtime -3",
+        "kullanim_sikligi":  567
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.yaml\" -mtime -4",
+        "kullanim_sikligi":  483
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.xml\" -mtime -1",
+        "kullanim_sikligi":  520
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.xml\" -mtime -2",
+        "kullanim_sikligi":  557
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.xml\" -mtime -3",
+        "kullanim_sikligi":  594
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.xml\" -mtime -4",
+        "kullanim_sikligi":  510
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.md\" -mtime -1",
+        "kullanim_sikligi":  547
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.md\" -mtime -2",
+        "kullanim_sikligi":  584
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.md\" -mtime -3",
+        "kullanim_sikligi":  500
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.md\" -mtime -4",
+        "kullanim_sikligi":  537
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.conf\" -mtime -1",
+        "kullanim_sikligi":  574
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.conf\" -mtime -2",
+        "kullanim_sikligi":  490
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.conf\" -mtime -3",
+        "kullanim_sikligi":  527
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.conf\" -mtime -4",
+        "kullanim_sikligi":  564
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sql\" -mtime -1",
+        "kullanim_sikligi":  480
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sql\" -mtime -2",
+        "kullanim_sikligi":  517
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sql\" -mtime -3",
+        "kullanim_sikligi":  554
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sql\" -mtime -4",
+        "kullanim_sikligi":  591
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sh\" -mtime -1",
+        "kullanim_sikligi":  507
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sh\" -mtime -2",
+        "kullanim_sikligi":  544
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sh\" -mtime -3",
+        "kullanim_sikligi":  581
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.sh\" -mtime -4",
+        "kullanim_sikligi":  497
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.py\" -mtime -1",
+        "kullanim_sikligi":  534
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.py\" -mtime -2",
+        "kullanim_sikligi":  571
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.py\" -mtime -3",
+        "kullanim_sikligi":  487
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.py\" -mtime -4",
+        "kullanim_sikligi":  524
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.js\" -mtime -1",
+        "kullanim_sikligi":  561
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.js\" -mtime -2",
+        "kullanim_sikligi":  598
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.js\" -mtime -3",
+        "kullanim_sikligi":  514
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.js\" -mtime -4",
+        "kullanim_sikligi":  551
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.ts\" -mtime -1",
+        "kullanim_sikligi":  588
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.ts\" -mtime -2",
+        "kullanim_sikligi":  504
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.ts\" -mtime -3",
+        "kullanim_sikligi":  541
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.ts\" -mtime -4",
+        "kullanim_sikligi":  578
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.css\" -mtime -1",
+        "kullanim_sikligi":  494
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.css\" -mtime -2",
+        "kullanim_sikligi":  531
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.css\" -mtime -3",
+        "kullanim_sikligi":  568
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.css\" -mtime -4",
+        "kullanim_sikligi":  484
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.html\" -mtime -1",
+        "kullanim_sikligi":  521
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.html\" -mtime -2",
+        "kullanim_sikligi":  558
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.html\" -mtime -3",
+        "kullanim_sikligi":  595
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.html\" -mtime -4",
+        "kullanim_sikligi":  511
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.jpg\" -mtime -1",
+        "kullanim_sikligi":  548
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.jpg\" -mtime -2",
+        "kullanim_sikligi":  585
+    },
+    {
+        "komut":  "find ./assets -type f -name \"*.jpg\" -mtime -3",
+        "kullanim_sikligi":  501
     }
 ]
