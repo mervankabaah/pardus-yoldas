@@ -388,27 +388,27 @@
         "kullanim_sikligi":  498
     },
     {
-        "komut":  "ls ~/Ä°ndirilenler",
+        "komut":  "ls ~/İndirilenler",
         "kullanim_sikligi":  798
     },
     {
-        "komut":  "ls -la ~/Ä°ndirilenler",
+        "komut":  "ls -la ~/İndirilenler",
         "kullanim_sikligi":  798
     },
     {
-        "komut":  "du -sh ~/Ä°ndirilenler",
+        "komut":  "du -sh ~/İndirilenler",
         "kullanim_sikligi":  498
     },
     {
-        "komut":  "ls ~/MasaÃ¼stÃ¼",
+        "komut":  "ls ~/Masaüstü",
         "kullanim_sikligi":  799
     },
     {
-        "komut":  "ls -la ~/MasaÃ¼stÃ¼",
+        "komut":  "ls -la ~/Masaüstü",
         "kullanim_sikligi":  798
     },
     {
-        "komut":  "du -sh ~/MasaÃ¼stÃ¼",
+        "komut":  "du -sh ~/Masaüstü",
         "kullanim_sikligi":  498
     },
     {
@@ -488,11 +488,11 @@
         "kullanim_sikligi":  788
     },
     {
-        "komut":  "cd ~/Ä°ndirilenler",
+        "komut":  "cd ~/İndirilenler",
         "kullanim_sikligi":  787
     },
     {
-        "komut":  "cd ~/MasaÃ¼stÃ¼",
+        "komut":  "cd ~/Masaüstü",
         "kullanim_sikligi":  788
     },
     {
