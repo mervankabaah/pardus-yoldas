@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import getpass
 import shlex
+import subprocess
 from prompt_toolkit import PromptSession
 from prompt_toolkit.auto_suggest import AutoSuggest, Suggestion
 from prompt_toolkit.key_binding import KeyBindings
@@ -10,7 +11,8 @@ from prompt_toolkit.key_binding import KeyBindings
 # JSON dosyasından komutları çeken fonksiyon
 def komutlari_yukle(dosya_yolu):
     try:
-        with open(dosya_yolu, 'r', encoding='utf-8') as f:
+        # "utf-8-sig", UTF-8 dosyalarını ve bazı editörlerin eklediği BOM'u destekler.
+        with open(dosya_yolu, 'r', encoding='utf-8-sig') as f:
             # JSON dosyasindaki komutlari normalize etmek icin oku
             ham_komutlar = json.load(f)
     except FileNotFoundError:
@@ -57,6 +59,8 @@ ANA_DIZIN = Path.home()
 JSON_DOSYASI = UYGULAMA_DIZINI / "komutlar.json"
 KOMUTLAR = komutlari_yukle(JSON_DOSYASI)
 SON_DIZIN = None
+AKTIF_VENV = None
+VENV_ORTAM_YEDEGI = None
 
 # Hayalet Yazı Motoru
 class AkilliTahmin(AutoSuggest):
@@ -139,19 +143,87 @@ def dizin_metni():
 def prompt_metni():
     kullanici = getpass.getuser()
     dizin = dizin_metni()
+    venv_eki = []
+
+    if AKTIF_VENV is not None:
+        venv_eki = [("ansiyellow", f"({AKTIF_VENV.name}) ")]
 
     if dizin:
-        return [
+        return venv_eki + [
             ("ansigreen", f"{kullanici}@pardusyoldaş"),
             ("", ":"),
             ("ansiblue", dizin),
             ("", "$ "),
         ]
 
-    return [
+    return venv_eki + [
         ("ansigreen", f"{kullanici}@pardusyoldaş"),
         ("", ":$ "),
     ]
+
+def venv_aktivasyon_yolu(girdi):
+    """`source venv/bin/activate` komutundan venv kökünü döndürür."""
+    try:
+        parcalar = shlex.split(girdi)
+    except ValueError:
+        return None
+
+    if len(parcalar) != 2 or parcalar[0] not in ("source", "."):
+        return None
+
+    aktivasyon_dosyasi = Path(os.path.expanduser(parcalar[1]))
+    if not aktivasyon_dosyasi.is_absolute():
+        aktivasyon_dosyasi = Path.cwd() / aktivasyon_dosyasi
+    aktivasyon_dosyasi = aktivasyon_dosyasi.resolve()
+
+    if (
+        aktivasyon_dosyasi.name != "activate"
+        or aktivasyon_dosyasi.parent.name != "bin"
+        or not aktivasyon_dosyasi.is_file()
+    ):
+        return None
+
+    venv_yolu = aktivasyon_dosyasi.parent.parent
+    if not (venv_yolu / "bin" / "python").is_file():
+        return None
+    return venv_yolu
+
+def venv_ortamini_geri_yukle():
+    global AKTIF_VENV, VENV_ORTAM_YEDEGI
+
+    if VENV_ORTAM_YEDEGI is None:
+        return False
+
+    for anahtar, deger in VENV_ORTAM_YEDEGI.items():
+        if deger is None:
+            os.environ.pop(anahtar, None)
+        else:
+            os.environ[anahtar] = deger
+
+    AKTIF_VENV = None
+    VENV_ORTAM_YEDEGI = None
+    return True
+
+def venv_aktive_et(venv_yolu):
+    global AKTIF_VENV, VENV_ORTAM_YEDEGI
+
+    # Zaten etkin bir ortam varsa önce asıl PATH'i geri getir.
+    venv_ortamini_geri_yukle()
+    VENV_ORTAM_YEDEGI = {
+        anahtar: os.environ.get(anahtar)
+        for anahtar in ("PATH", "VIRTUAL_ENV", "VIRTUAL_ENV_PROMPT")
+    }
+    os.environ["VIRTUAL_ENV"] = str(venv_yolu)
+    os.environ["VIRTUAL_ENV_PROMPT"] = f"({venv_yolu.name}) "
+    os.environ["PATH"] = str(venv_yolu / "bin") + os.pathsep + os.environ["PATH"]
+    AKTIF_VENV = venv_yolu
+    print(f"Sanal ortam etkinleştirildi: {venv_yolu}")
+
+def venv_devre_disi_birak():
+    if venv_ortamini_geri_yukle():
+        print("Sanal ortam devre dışı bırakıldı")
+    else:
+        print("Etkin bir sanal ortam yok")
 
 def dizin_degistir(girdi):
     global SON_DIZIN
@@ -221,8 +293,18 @@ def main():
                 dizin_degistir(girdi)
                 continue
 
-            # Komutu sisteme gönder
-            os.system(girdi)
+            if girdi.strip() == "deactivate":
+                venv_devre_disi_birak()
+                continue
+
+            venv_yolu = venv_aktivasyon_yolu(girdi)
+            if venv_yolu is not None:
+                venv_aktive_et(venv_yolu)
+                continue
+
+            # Bash sözdizimini destekle. Ortam değişkenleri, aktif venv varsa
+            # bu süreçten çalıştırılan her komuta aktarılır.
+            subprocess.run(girdi, shell=True, executable="/bin/bash", env=os.environ)
 
         except KeyboardInterrupt:
             continue
